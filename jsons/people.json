@@ -136,12 +136,6 @@
 			"lastname": "Schirm",
 			"link": "#",
 			"pic_links": ["imgs/people/olivier.jpeg"]
-		},
-		{
-			"firstname": "Romain",
-			"lastname": "Wenger",
-			"link": "https://romainwenger.fr",
-			"pic_links": ["imgs/people/rw.jpeg"]
 		}
 	],
 	"postdoc":[
@@ -164,12 +158,6 @@
 			"lastname": "Gouiaa",
 			"link": "https://fr.linkedin.com/in/aya-gouiaa-a388531b8",
 			"pic_links": ["imgs/people/aya.jpg"]
-		},
-		{
-			"firstname": "Laman",
-			"lastname": "Hasanli",
-			"link": "https://fr.linkedin.com/in/lhasanli",
-			"pic_links": ["imgs/people/laman.jpeg"]
 		},
 		{
 			"firstname": "Elvin",
@@ -204,6 +192,12 @@
 			"pic_links": ["imgs/people/Milos.jpg"]
 		},
 		{
+			"firstname": "Laman",
+			"lastname": "Hasanli",
+			"link": "https://fr.linkedin.com/in/lhasanli",
+			"pic_links": ["imgs/people/laman.jpeg"]
+		},
+		{
 			"firstname": "Hassan",
 			"lastname": "Ismail Fawaz",
 			"link": "https://hfawaz.github.io/",
@@ -232,6 +226,12 @@
 			"lastname": "Wahid",
 			"link": "https://sites.google.com/view/abdulcse/home",
 			"pic_links": ["imgs/people/abdul.jpg"]
+		},
+		{
+			"firstname": "Romain",
+			"lastname": "Wenger",
+			"link": "https://romainwenger.fr",
+			"pic_links": ["imgs/people/rw.jpeg"]
 		}
 	]
 }
