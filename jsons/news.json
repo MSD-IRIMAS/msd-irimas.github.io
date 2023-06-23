@@ -1,6 +1,34 @@
 {
 	"news":[
 		{
+			"date": "2023.06",
+			"content": "Robin Heckenauer was at <a href=\"https://2023.cbms-conference.org\" target=\"_blank\">CBMS 2023</a> to present our work on DL for colon cancer mutation detection"
+		},
+		{
+			"date": "2023.05",
+			"content": "Members of our team participated to <a href=\"https://orasis2023.sciencesconf.org\" target=\"_blank\">ORASIS 2023</a>"
+		},
+		{
+			"date": "2023.05",
+			"content": "New paper on arxiv on <a href=\"https://arxiv.org/abs/2305.11921\" target=\"_blank\">classifiers comparison</a>!"
+		},
+		{
+			"date": "2023.05",
+			"content": "Jonathan Weber was at <a href=\"http://jurse2023.org\" target=\"_blank\">JURSE 2023</a> for co-chairing a special session on DL for for urban areas analysis"
+		},
+		{
+			"date": "2023.05",
+			"content": "One journal paper accepted in <a href=\"https://www.springer.com/journal/10115\" target=\"_blank\">Knowledge and Information Systems (KAIS)</a> on time series averaging!"
+		},
+		{
+			"date": "2023.04",
+			"content": "Welcome to Abir Benaissa who just started her Master Internship to work on the <a href=\"https://maxime-devanne.com/delegation/\" target=\"_blank\">DELEGATION</a> project"
+		},
+		{
+			"date": "2023.03",
+			"content": "Congratulation to <a href=\"https://romainwenger.fr/\" target=\"_blank\">Romain Wenger</a> who defended his PhD!"
+		},
+		{
 			"date": "2023.02",
 			"content": "Phd students participated at <a href=\"https://recherche.insa-strasbourg.fr/wp-content/uploads/2023/02/JSIA-2023-02-28-Programme-1.pdf\" target=\"_blank\">la journée scientifique autour de l'IA en région Grand-Est</a>"
 		},
