@@ -1,0 +1,239 @@
+{
+	"permanent":[
+		{
+			"firstname": "Jonathan",
+			"lastname": "Weber",
+			"link": "https://www.jonathan-weber.eu",
+			"position" : "Assoc. Prof.",
+			"pic_links": ["imgs/people/JW.png"]
+		},
+		{
+			"firstname": "Germain",
+			"lastname": "Forestier",
+			"link": "https://germain-forestier.info",
+			"position" : "Full Prof.",
+			"pic_links": ["imgs/people/Germain-Forestier.jpg"]
+		},
+		{
+			"firstname": "Michel",
+			"lastname": "Hassenforder",
+			"link": "https://fr.linkedin.com/in/michel-hassenforder-1046115",
+			"position" : "Full Prof.",
+			"pic_links": ["imgs/people/hassenforder.jpg"]
+		},
+		{
+			"firstname": "Pierre-Alain",
+			"lastname": "Muller",
+			"link": "http://pierrealain.muller.free.fr",
+			"position" : "Full Prof.",
+			"pic_links": ["imgs/people/PAM.jpg"]
+		},
+		{
+			"firstname": "Jean-Marc",
+			"lastname": "Perronne",
+			"link": "https://fr.linkedin.com/in/jean-marc-perronne-71a6a236",
+			"position" : "Full Prof.",
+			"pic_links": ["imgs/people/JMP.jpg"]
+		},
+		{
+			"firstname": "Maxime",
+			"lastname": "Devanne",
+			"link": "https://https://maxime-devanne.com",
+			"position" : "Assoc. Prof.",
+			"pic_links": ["imgs/people/maximeDevanne.jpg"]
+		},
+		{
+			"firstname": "Frédéric",
+			"lastname": "Fondement",
+			"link": "http://fondement.free.fr/lgl/",
+			"position" : "Assoc. Prof.",
+			"pic_links": ["imgs/people/ff.jpg"]
+		},
+		{
+			"firstname": "Philippe",
+			"lastname": "Studer",
+			"link": "https://www.researchgate.net/profile/Philippe-Studer",
+			"position" : "Assoc. Prof.",
+			"pic_links": ["imgs/people/PS.png"]
+		},
+		{
+			"firstname": "Laurent",
+			"lastname": "Thiry",
+			"link": "https://laurent-thiry.fr/",
+			"position" : "Assoc. Prof.",
+			"pic_links": ["imgs/people/LT.png"]
+		}
+	],
+	"phd":[
+		{
+			"firstname": "Marceau",
+			"lastname": "Bamond",
+			"link": "#",
+			"pic_links": ["imgs/people/marseau.jpg"]
+		},
+		{
+			"firstname": "Bruno",
+			"lastname": "Come",
+			"link": "https://www.linkedin.com/in/bruno-côme-5b907487",
+			"pic_links": ["imgs/people/bruno.jpeg"]
+		},
+		{
+			"firstname": "Claudia",
+			"lastname": "Ehrgig",
+			"link": "https://www.researchgate.net/profile/Claudia-Ehrig",
+			"pic_links": ["imgs/people/claudia.jpeg"]
+		},
+		{
+			"firstname": "Mouad",
+			"lastname": "Hamri",
+			"link": "https://fr.linkedin.com/in/mouad-hamri-3635aa19",
+			"pic_links": ["imgs/people/mouad.png"]
+		},
+		{
+			"firstname": "Robin",
+			"lastname": "Heckenauer",
+			"link": "https://www.researchgate.net/profile/Robin-Heckenauer-2",
+			"pic_links": ["imgs/people/robin.jpeg"]
+		},
+		{
+			"firstname": "Vasile",
+			"lastname": "Giurgi",
+			"link": "https://fr.linkedin.com/in/vasile-giurgi",
+			"pic_links": ["imgs/people/vasile.jpg"]
+		},
+		{
+			"firstname": "Ali El Hadi",
+			"lastname": "Ismail-Fawaz",
+			"link": "https://hadifawaz1999.github.io",
+			"pic_links": ["imgs/people/hadi.jpg"]
+		},
+		{
+			"firstname": "Mihreteab",
+			"lastname": "Negash",
+			"link": "https://et.linkedin.com/in/mihreteab-negash-09ba7537",
+			"pic_links": ["imgs/people/mihreteab.jpg"]
+		},
+		{
+			"firstname": "Gautier",
+			"lastname": "Pialla",
+			"link": "https://fr.linkedin.com/in/gpialla",
+			"pic_links": ["imgs/people/gautier.jpg"]
+		},
+		{
+			"firstname": "Joachim",
+			"lastname": "Rimpot",
+			"link": "https://fr.linkedin.com/in/joachim-rimpôt-84ab4b112",
+			"pic_links": ["imgs/people/joachim.png"]
+		},
+		{
+			"firstname": "Alicia",
+			"lastname": "Roux",
+			"link": "https://fr.linkedin.com/in/alicia-roux-797b6715a",
+			"pic_links": ["imgs/people/alicia.jpg"]
+		},
+		{
+			"firstname": "Olivier",
+			"lastname": "Schirm",
+			"link": "#",
+			"pic_links": ["imgs/people/olivier.jpeg"]
+		},
+		{
+			"firstname": "Romain",
+			"lastname": "Wenger",
+			"link": "https://romainwenger.fr",
+			"pic_links": ["imgs/people/rw.jpeg"]
+		}
+	],
+	"postdoc":[
+		{
+			"firstname": "Oumaima",
+			"lastname": "Jrad",
+			"link": "#",
+			"pic_links": ["imgs/people/oumaima.jpg"]
+		}
+	],
+	"engineer":[
+		{
+			"firstname": "Javidan",
+			"lastname": "Abdullayev",
+			"link": "https://az.linkedin.com/in/cavidan-abdullayev-83289815b",
+			"pic_links": ["imgs/people/javidan.png"]
+		},
+		{
+			"firstname": "Aya",
+			"lastname": "Gouiaa",
+			"link": "https://fr.linkedin.com/in/aya-gouiaa-a388531b8",
+			"pic_links": ["imgs/people/aya.jpg"]
+		},
+		{
+			"firstname": "Laman",
+			"lastname": "Hasanli",
+			"link": "https://fr.linkedin.com/in/lhasanli",
+			"pic_links": ["imgs/people/laman.jpeg"]
+		},
+		{
+			"firstname": "Elvin",
+			"lastname": "Ismayilzada",
+			"link": "https://az.linkedin.com/in/elvin-ismayilzada-4679251a3",
+			"pic_links": ["imgs/people/elvin.jpeg"]
+		}
+	],
+	"alumni":[
+		{
+			"firstname": "Mounir",
+			"lastname": "Bendali-Braham",
+			"link": "https://www.linkedin.com/in/mounir-bendali-braham-593174105",
+			"pic_links": ["imgs/people/Mounir.png"]
+		},
+		{
+			"firstname": "Amina",
+			"lastname": "Ben Hamida",
+			"link": "https://www.researchgate.net/profile/Amina-Ben-Hamida",
+			"pic_links": ["imgs/people/amina.jpg"]
+		},
+		{
+			"firstname": "Bonan",
+			"lastname": "Cuan",
+			"link": "https://fr.linkedin.com/in/bonan-cuan-634a21196/fr",
+			"pic_links": ["imgs/people/bonan.jpg"]
+		},
+		{
+			"firstname": "Milos",
+			"lastname": "Čučulović",
+			"link": "https://www.researchgate.net/profile/Milos-Cuculovic",
+			"pic_links": ["imgs/people/Milos.jpg"]
+		},
+		{
+			"firstname": "Hassan",
+			"lastname": "Ismail Fawaz",
+			"link": "https://hfawaz.github.io/",
+			"pic_links": ["imgs/people/hassan.png"]
+		},
+		{
+			"firstname": "Baptiste",
+			"lastname": "Lafabregue",
+			"link": "https://scholar.google.fr/citations?user=Vf6h4YsAAAAJ",
+			"pic_links": ["imgs/people/baptiste.png"]
+		},
+		{
+			"firstname": "Bastien",
+			"lastname": "Latard",
+			"link": "https://scholar.google.fr/citations?user=VkN3Z24AAAAJ",
+			"pic_links": ["imgs/people/bastien.jpg"]
+		},
+		{
+			"firstname": "Tsegamlak",
+			"lastname": "Terefe",
+			"link": "https://www.researchgate.net/profile/Tsegamlak-Terefe",
+			"pic_links": ["imgs/people/terefe.png"]
+		},
+		{
+			"firstname": "Abdul",
+			"lastname": "Wahid",
+			"link": "https://sites.google.com/view/abdulcse/home",
+			"pic_links": ["imgs/people/abdul.jpg"]
+		}
+	]
+}
+
+

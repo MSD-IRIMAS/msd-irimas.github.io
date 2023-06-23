@@ -1,0 +1,74 @@
+{
+	"academic":[
+		{
+			"name": "Stefano Berretti",
+			"link": "http://www.micc.unifi.it/berretti/",
+			"date": "",
+			"institution": "Università di Firenze",
+			"country": "Italy",
+			"institution_links": "https://www.unifi.it"
+		},
+		{
+			"name": "Friedrich Feuerhake",
+			"link": "https://scholar.google.com/citations?user=SYGBC08AAAAJ&hl=en",
+			"date": "",
+			"institution": "Medizinische Hochschule Hannover",
+			"country": "Germany",
+			"institution_links": "https://www.mhh.de"
+		},
+		{
+			"name": "Geoff Webb",
+			"link": "https://i.giwebb.com",
+			"date": "",
+			"institution": "Monash University",
+			"country": "Australia",
+			"institution_links": "https://www.monash.edu"
+		},
+		{
+			"name": "Cédric Wemmert",
+			"link": "https://wemmertc.github.io/webpage/",
+			"date": "",
+			"institution": "Université de Strasbourg",
+			"country": "France",
+			"institution_links": "https://unistra.fr/"
+		}
+	],
+	"companies":[
+		{
+			"name": "Cetim Grand-Est",
+			"link": "https://dig-e-lab.eu/fr/accueil/",
+			"date": "",
+			"country": "France"
+		},
+		{
+			"name": "Data Analysis",
+			"link": "https://www.datanalysis.re/",
+			"date": "",
+			"country": "France"
+		},
+		{
+			"name": "Institut Saint-Louis (ISL)",
+			"link": "https://www.isl.eu/en/",
+			"date": "",
+			"country": "France"
+		},
+		{
+			"name": "MDPI",
+			"link": "https://www.mdpi.com/",
+			"date": "",
+			"country": "Switzerland"
+		},
+		{
+			"name": "Syentys",
+			"link": "https://www.syentys.com/",
+			"date": "",
+			"country": "France"
+		},
+		{
+			"name": "Visorando",
+			"link": "https://www.visorando.com/",
+			"date": "",
+			"country": "France"
+		}
+	]
+}

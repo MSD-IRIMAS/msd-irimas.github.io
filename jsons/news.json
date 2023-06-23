@@ -1,0 +1,214 @@
+{
+	"news":[
+		{
+			"date": "2023.02",
+			"content": "Phd students participated at <a href=\"https://recherche.insa-strasbourg.fr/wp-content/uploads/2023/02/JSIA-2023-02-28-Programme-1.pdf\" target=\"_blank\">la journée scientifique autour de l'IA en région Grand-Est</a>"
+		},
+		{
+			"date": "2023.02",
+			"content": "Ali El Hadi Ismail Fawaz was at <a href=\"https://icaart.scitevents.org\" target=\"_blank\">ICAART 2023</a> to present our work on self-supervised learning for TSC"
+		},
+		{
+			"date": "2023.02",
+			"content": "<a href=\"https://au.linkedin.com/in/lynn-miller-bb1aa539\" target=\"_blank\">Lynn Miller</a>, PhD student at Monash University, visited our group for one week"
+		},
+		{
+			"date": "2023.02",
+			"content": "Welcome to Artughrul, Huseyn and Mario who just started their Master internship in our team!"
+		},
+		{
+			"date": "2023.01",
+			"content": "Welcome to <a href=\"https://www.linkedin.com/in/lhasanli/\" target=\"_blank\">Laman Hasanli</a> who joined us as a research engineer, to work on the Enygma project"
+		},
+		{
+			"date": "2023.01",
+			"content": "<a href=\"https://www.linkedin.com/in/bruno-côme-5b907487\">Bruno Come</a> starts his PhD in our team to work on graph images analysis and data visualization"
+		},
+		{
+			"date": "2023.01",
+			"content": "Maxime Devanne was at <a href=\"https://fg2023.ieee-biometrics.org\" target=\"_blank\">FG 2023</a> for chairing the <a href=\"https://sites.google.com/view/lfa-fg2023/\" target=\"_blank\">LFA-FG</a> Workshop"
+		},
+		{
+			"date": "2022.12",
+			"content": "Ali El Hadi Ismail Fawaz was at <a href=\"https://bigdataieee.org/BigData2022/\" target=\"_blank\">IEEE BigData 2022</a> to present our work on <a href=\"http://maxime-devanne.com/pages/HCCF-4-tsc/\" target=\"_blank\">custom filters for TSC</a>"
+		},
+		{
+			"date": "2022.12",
+			"content": "Congratulation to <a href=\"https://ch.linkedin.com/in/cuculovic\" target=\"_blank\">Milos Cuculovic</a> who defended his PhD!"
+		},
+		{
+			"date": "2022.11",
+			"content": "<a href=\"https://sites.google.com/site/charpelletier/\" target=\"_blank\">Charlotte Pelletier</a> visited our group and gave a talk on Satellite Images Time Series"
+		},
+		{
+			"date": "2022.10",
+			"content": "<a href=\"https://hadifawaz1999.github.io\" target=\"_blank\">Ali El Hadi Ismail Fawaz</a> starts his PhD in our team to work in the <a href=\"http://maxime-devanne.com/delegation/\" target=\"_blank\">DELEGATION</a> project"
+		},
+		{
+			"date": "2022.09",
+			"content": "<a href=\"http://i.giwebb.com\" target=\"_blank\">Geoff Webb</a> visited our group and gave a talk on TSC"
+		},
+		{
+			"date": "2022.09",
+			"content": "One journal paper accepted in <a href=\"https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine\" target=\"_blank\">Artificial Intelligence In Medicine</a> on histopathological image segmentation"
+		},
+		{
+			"date": "2022.09",
+			"content": "Welcome to <a href=\"https://sites.google.com/view/abdulcse/home\" target=\"_blank\">Abdul Wahid</a> who joined us as a research engineer, to work on the Enygma project"
+		},
+		{
+			"date": "2022.09",
+			"content": "Elvin Ismayilzada is now a research engineer in our team, working on the REVEIL project"
+		},
+		{
+			"date": "2022.08",
+			"content": "Javidan Abdullayev is now a research engineer in our team, working on the Enygma project"
+		},
+		{
+			"date": "2022.08",
+			"content": "We organize the <a href=\"https://sites.google.com/view/lfa-fg2023/\" target=\"_blank\"> 1st Workshop on Learning with few or without annotated face, body and gesture data</a> at <a href=\"https://fg2023.ieee-biometrics.org\" target=\"_blank\">FG 2023</a>"
+		},
+		{
+			"date": "2022.07",
+			"content": "Maxime Devanne was in Padua at <a href=\"https://wcci2022.org\" target=\"_blank\">IJCNN 2022</a> for presenting our work on <a href=\"https://maxime-devanne.com/pages/kdFCN-4-tsc/\" target=\"_blank\">knowledge distillation for TSC</a>"
+		},
+		{
+			"date": "2022.07",
+			"content": "Congratulation to <a href=\"https://www.researchgate.net/profile/Tsegamlak-Terefe\" target=\"_blank\">Tsegamlak Terefe Debella</a> who defended his PhD!"
+		},
+		{
+			"date": "2022.06",
+			"content": "At <a href=\"https://icprai2022.sciencesconf.org\" target=\"_blank\">ICPRAI 2022</a> in Paris for co-chairing our <a href=\"https://tsa2022.sciencesconf.org\" target=\"_blank\">Time Series Analysis</a> special session"
+		},
+		{
+			"date": "2022.05",
+			"content": "At <a href=\"https://lns.lu\" target=\"_blank\">Laboratoire national de santé (LNS)</a> in Luxembourg for the <a href=\"https://www.era-learn.eu/network-information/networks/eracosysmed/3rd-joint-transnational-call-for-european-research-projects-on-systems-medicine/modelling-cell-plasticity-at-the-invasive-edge-to-diminish-glioblastoma-early-relapse-risk\" target=\"_blank\">Mi*EDGE</a> consortium meeting"
+		},
+		{
+			"date": "2022.05",
+			"content": "Maxime Devanne was at <a href=\"https://dhm.euromov.eu\" target=\"_blank\">EuroMov Digital Health in Motion</a> in Montpellier to give a talk on time series and rehabilitation"
+		},
+		{
+			"date": "2022.04",
+			"content": "One conference paper accepted at <a href=\"https://wcci2022.org\" target=\"_blank\">IJCNN 2022</a> on knowledge distillation for time series classification"
+		},
+		{
+			"date": "2022.04",
+			"content": "Kick-off meeting of <a href=\"./delegation\" target=\"_blank\">DELEGATION</a> project"
+		},
+		{
+			"date": "2022.03",
+			"content": "<a href=\"https://www.linkedin.com/in/vasile-giurgi/\" target=\"_blank\">Vasile Giurgi</a> starts his PhD in collaboration with the <a href=\"https://www.irimas.uha.fr/index.php/equipes/equipe-miam/\" target=\"_blank\">MIAM</a> team on DL and data fusion in autonomous vehicles"
+		},
+		{
+			"date": "2022.03",
+			"content": "Welcome to Asmaa, Amir, Elvin, Hadi and Javidan who just started their Master internship within our team !"
+		},
+		{
+			"date": "2022.02",
+			"content": "One journal paper accepted in <a href=\"https://www.hindawi.com/journals/bmri/\" target=\"_blank\">BioMed Research International</a> on humanoid robot coach and rehabilitation"
+		},
+		{
+			"date": "2022.01",
+			"content": "Congratulation to <a href=\"https://fr.linkedin.com/in/mounir-bendali-braham-593174105\" target=\"_blank\">Mounir Bendali-Braham</a> who defended his PhD!"
+		},
+		{
+			"date": "2022.01",
+			"content": "One journal paper accepted in <a href=\"https://onlinelibrary.wiley.com/journal/1097024x\" target=\"_blank\">Software: Practice and Experience</a> on semantics for document-based XML diff"
+		},
+		{
+			"date": "2022.01",
+			"content": "One conference paper accepted at <a href=\"http://www.pakdd.net\" target=\"_blank\">PAKDD 2022</a> on smooth adversarial attacks for time series classification"
+		},
+		{
+			"date": "2021.11",
+			"content": "One conference paper accepted at <a href=\"https://visapp.scitevents.org\" target=\"_blank\">VISAPP 2022</a> on ensemble clustering for histopathological images segmentation"
+		},
+		{
+			"date": "2021.11",
+			"content": "We are organizing a <a href=\"https://tsa2022.sciencesconf.org\" target=\"_blank\"> Special Session on Time Series Analysis (TSA)</a> in conjunction with <a href=\"https://icprai2022.sciencesconf.org\" target=\"_blank\">ICPRAI 2022</a>"
+		},
+		{
+			"date": "2021.10",
+			"content": "6 months Master internship position on Deep Learning architectures for generating human motion"
+		},
+		{
+			"date": "2021.10",
+			"content": "One year postdoctoral position on banking data analysis for fraud detection"
+		},
+		{
+			"date": "2021.09",
+			"content": "Congratulation to <a href=\"https://www.linkedin.com/in/baptiste-lafabregue-03b59036/\" target=\"_blank\">Baptiste Lafabrègue</a> who defended his PhD!"
+		},
+		{
+			"date": "2021.08",
+			"content": "One journal paper accepted in <a href=\"https://www.journals.elsevier.com/computers-in-biology-and-medicine\" target=\"_blank\">Computers in Biology and Medicine</a> on DL for colon cancer in histopathological images"
+		},
+		{
+			"date": "2021.07",
+			"content": "The <a href=\"./delegation\" target=\"_blank\">DELEGATION</a> project (ANR JCJC) has been accepted and funded by ANR!"
+		},
+		{
+			"date": "2021.07",
+			"content": "One conference paper accepted at <a href=\"https://www.isispa.org/\" target=\"_blank\">ISPA 2021</a> about ensemble classification of video-recorded crowd movements"
+		},
+		{
+			"date": "2021.05",
+			"content": "New journal paper on <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0169260721002315\" target=\"_blank\">an automatic framework for fusing information from differently stained digital whole slide images</a>!"
+		},
+		{
+			"date": "2021.03",
+			"content": "New journal paper on <a href=\"https://germain-forestier.info/publis/mlwa2021.pdf\" target=\"_blank\">crowd analysis in Machine Learning with Applications</a>!"
+		},
+		{
+		 	"date": "2021.01",
+		 	"content": "<a href=\"https://jonathan-weber.eu/\" target=\"_blank\">Jonathan Weber</a> defended his HDR (Habilitation), congrats Jonathan!"
+		},
+		{
+		 	"date": "2021.01",
+		 	"content": "<a href=\"https://fr.linkedin.com/in/mouad-hamri-3635aa19\" target=\"_blank\">Mouad Hamri</a> starts his PhD in our <a href=\"https://www.irimas.uha.fr/index.php/equipes/equipe-msd/\" target=\"_blank\">MSD</a> team on automatic data extraction from invoices"
+		},
+		{
+			"date": "2021.01",
+			"content": "We are organizing <a href=\"https://apta2021.sciencesconf.org\" target=\"_blank\"> APTA Workshop </a> in conjunction with <a href=\"https://egc2021.sciencesconf.org\" target=\"_blank\">EGC 2021</a>"
+		},
+		{
+			"date": "2020.11",
+			"content": "<a href=\"https://fr.linkedin.com/in/gpialla\" target=\"_blank\">Gautier Pialla</a> starts his PhD in the <a href=\"https://www.irimas.uha.fr/index.php/equipes/equipe-msd/\" target=\"_blank\">MSD</a> team on deep learning for time series"
+		},
+		{
+			"date": "2020.10",
+			"content": "The DeepRehab project has been accepted for 1 year funding</a>"
+		},
+		{
+			"date": "2020.09",
+			"content": "Congratulation to <a href=\"https://hfawaz.github.io/\" target=\"_blank\">Hassan Ismail Fawaz</a> who defended his PhD!"
+		},
+		{
+			"date": "2020.09",
+			"content": "<a href=\"https://germain-forestier.info\" target=\"_blank\">Germain Forestier</a> gave a talk on DL for TSC at the <a href=\"https://sites.google.com/view/cisir-summer-school-2020/\" target=\"_blank\">Summer School: Machine Learning and Deep Learning Applications."
+		},
+		{
+			"date": "2020.09",
+			"content": "One conference paper accepted at <a href=\"https://www.ictai2020.org\" target=\"_blank\">ICTAI 2020</a> on averaging time series using Multi-Task Autoencoder"
+		},
+		{
+			"date": "2020.09",
+			"content": "<a href=\"\">Olivier Schirm</a> starts his PhD in collaboration with <a href=\"https://www.visorando.com/\" target=\"_blank\">ICube</a> and <a href=\"https://sdc.icube.unistra.fr/en/index.php?title=Home\" target=\"_blank\">Visorando</a> on spatio-temporal hiking data analysis"
+		},
+		{
+			"date": "2020.07",
+			"content": "One conference paper accepted at <a href=\"https://doceng.org/doceng2020\" target=\"_blank\">DocEng 2020</a> on XML Diff Comparison"
+		},
+		{
+			"date": "2020.02",
+			"content": "<a href=\"https://et.linkedin.com/in/mihreteab-negash-09ba7537\" target=\"_blank\">Mihreteab Negash Geletu</a> starts his PhD in collaboration with the <a href=\"https://www.irimas.uha.fr/index.php/equipes/equipe-miam/\" target=\"_blank\">MIAM</a> team on DL and data fusion in autonomous vehicles"
+		},
+		{
+			"date": "2020.01",
+			"content": "In Bruxelles for co-chairing the <a href=\"https://apta2020.sciencesconf.org\" target=\"_blank\"> APTA Workshop </a> organized in conjunction with <a href=\"https://egc2020.sciencesconf.org\" target=\"_blank\">EGC 2020</a>"
+		}
+	]
+}
+
+

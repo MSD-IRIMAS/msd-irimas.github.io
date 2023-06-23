@@ -1,1 +1,187 @@
-Welcome to the MSD-IRIMAS webpage
+<!--author : maxime devanne-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta charset="utf-8">
+  	<meta content="md-ver">
+    <title>MSD</title>
+    <!--Style-->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/academicons.min.css">
+  	<!--Externals-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/4d22a78a57.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bibtexParse.js"></script>
+	<script type="text/javascript" src="js/myscripts.js"></script>
+	<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172082495-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-172082495-1');
+	</script>
+
+
+	<!--meta-->
+	<meta name="description" content="website of Modeling and Data Science (MSD) research group, from IRIMAS Institute at Universite de Haute-Alsace.">
+	<meta name="keywords" content="maxime devanne, germain forestier, jonathan weber, data science, computer vision, time series, human motion analysis, action recognition, machine learning, shape analysis, pattern recognition, big data, artificial intelligence, deep learning, mulhouse, alsace, haut-rhin, intelligence artificielle, transfer learning, robotics, medicine, ambient assisted living">
+  </head>
+  <!--body-->
+  <body>
+  	<div id="home" class="container">
+  		<div class="card border-0 sticky-top">
+	  		<div class="row align-items-center bg-dark">
+	  			<div class="col-md-3">
+	  				<h3 id="myname" class="grey-color"></h3>
+		  			<h6 id="mytitle" class="grey-color"></h6>
+	  			</div>
+	  			<div class="col-md-1 vertical d-none d-md-block"></div>
+	    		<div class="col-md-7">
+	    			<nav class="navbar navbar-expand-lg navbar-light">
+					  <a class="navbar-brand" href="#home"><i class="fas fa-home"></i></a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse" id="navbarNav">
+					    <ul class="navbar-nav">
+					      <li class="nav-item">
+					        <a class="nav-link" href="#bio">Members</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#research">Projects</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#publications">Publications</a>
+					      </li>
+					    </ul>
+					  </div>
+					</nav>
+	    		</div>
+			</div>
+			<div class="row horizontal-top" style="height:0.5rem"></div>
+		</div>
+		<section>
+		<div class="row">
+			<div class="col-md-6">
+				<img id ="img-profil" src="" alt="MSD group" class="img-thumbnail img-responsive center-block">
+			</div>
+			<div class="col-md-6">
+				<h4 class="vertical-title-bar">MSD team</h4>
+
+				<p id="abstract" class="text-justify"></p>		
+				<p class="text-justify" style="margin-top: -10px"><B>Keywords:</B> <span id="keywords"></span></p>
+
+			</div>
+		</div>
+		<div id="highlight_news"></div>
+		<div>
+				<h4 class="vertical-title-bar">Some news</h4>
+				<ul id="list-news"></ul>
+				<div style="margin-left: 45px; margin-top: -10px">
+					<span id="see-more"><i class="fas fa-search-plus"></i></span>&nbsp;
+					<span id="see-less"><i class="fas fa-search-minus"></i></span>
+				</div>
+				<br>
+		</div>
+		</section>
+		<section id="bio">
+		<div class="text-center grey-color horizontal-top horizontal-bottom bg-dark">
+			<h4>Members</h4>
+		</div>
+		<br>
+		<h4 class="vertical-title-bar">Permanent researchers</h4>
+		<div id="permanent"></div>
+		<br>
+		<h4 class="vertical-title-bar">PhD students</h4>
+		<div id="phd"></div>
+		<br>
+		<h4 class="vertical-title-bar">Postdocs</h4>
+		<div id="postdocs"></div>
+		<br>
+		<h4 class="vertical-title-bar">Engineers</h4>
+		<div id="engineers"></div>
+		<br>
+		<h4 class="vertical-title-bar">Alumnis</h4>
+		<div id="alumnis"></div>
+		<br>
+		</section>
+		<section id="research">
+		<div class="text-center grey-color horizontal-top horizontal-bottom bg-dark">
+			<h4>Projects and collaborations</h4>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-12">
+				<h4 class="vertical-title-bar">Projects</h4>
+				<B>Ongoing:</B>
+				<ul id="projects-current"></ul>
+				<B>Past:</B>
+				<ul id="projects-past"></ul>
+			</div>
+			<div class="col-md-12">
+				<h4 class="vertical-title-bar">Collaborations</h4>
+				<B>Academic:</B>
+				<ul id="collabs-academic"></ul>
+				<B>Companies/Institutes:</B>
+				<ul id="collabs-company"></ul>
+			</div>
+		</div>
+		</section>
+		<section id="publications">
+		<div class="text-center grey-color horizontal-top horizontal-bottom bg-dark">
+			<h4>Publications</h4>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-12">
+				<h4 class="vertical-title-bar">Articles in International Journals</h4>
+				<table class="col-md-12">
+					<tbody id="int_journals"></tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h4 class="vertical-title-bar">Communications in International Conferences and Workshops</h4>
+				<table class="col-md-12">
+					<tbody id="int_confs"></tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h4 class="vertical-title-bar">Book chapters</h4>
+				<table class="col-md-12">
+					<tbody id="chapters"></tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h4 class="vertical-title-bar">Articles in National Journals</h4>
+				<table class="col-md-12">
+					<tbody id="nat_journals"></tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h4 class="vertical-title-bar">Communications in National Conferences and Workshops</h4>
+				<table class="col-md-12">
+					<tbody id="nat_confs"></tbody>
+				</table>
+			</div>
+		</div>
+		</section>
+  	</div>
+  </body>
+</html>
