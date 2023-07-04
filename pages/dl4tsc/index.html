@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deep Learning for Time Series Classification.">
+  <meta name="keywords" content="fl-4-tsc, dl4tsc, Deep Learning, Time Series Classification">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title id="page-title"></title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bibtexParse.js"></script>
+  <script src="./static/js/load_paper_data.js"></script>
+  
+  <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://msd-irimas.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 id="paper-title" class="title is-2 publication-title"></h1>
+          <div id="paper-authors" class="is-size-5 publication-authors">
+          </div>
+            <a href="https://msd-irimas.github.io/">MSD team</a> of the IRIMAS lab from the Universite de Haute-Alsace, Mulhouse France
+          <div id="paper-institutions" class="is-size-5 publication-authors">
+          </div>
+
+          <div class="column has-text-centered">
+            <div id="paper-links" class="publication-links">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div id="abstract" class="content has-text-justified">
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img id="img-overview" src=""
+                 class="interpolation-image"
+                 alt=""/>
+      <h2 id ="caption-overview" class="subtitle has-text-centered"></h2>
+      <img id="img-overview2" src=""
+                 class="interpolation-image"
+                 alt=""/>
+      <h2 id ="caption-overview2" class="subtitle has-text-centered"></h2>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section id="specific-parts" class="section">
+</section>
+
+
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code id="bibtex-info"></code></pre>
+  </div>
+</section> -->
+
+<footer class="footer">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Add your model to the platform</h2>
+        <div class="content has-text-justified">
+          <p id="acknowledgment">
+          </p>
+          <p>
+            If you want to add your model to our platform, you should add an issue to this <a href="https://github.com/MSD-IRIMAS/msd-irimas.github.io">this github repository</a>.
+            please ensure that:
+            <ul>
+              <li>The code of the model should be public, easy to understand and reproducible.</li>
+              <li>The model should be evaluated on the 128 datasets of the <a href="https://www.cs.ucr.edu/~eamonn/time_series_data_2018/">UCR Archive</a>.</li>
+              <li>The paper that introduces the model should be published.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="footer">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Acknowledgment</h2>
+        <div class="content has-text-justified">
+          <p id="acknowledgment">
+          </p>
+          <p>
+            We would like to thank the authors of all the papers mentioned in this work as well as the authors of the <a href="https://www.cs.ucr.edu/~eamonn/time_series_data_2018/">UCR archive</a> for making the archive public and easy to access.
+            The template is inspired from <a
+              href="https://github.com/nerfies/nerfies.github.io">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="footer">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <div class="content has-text-justified">
+          <p id="acknowledgment">
+          </p>
+          <p>
+            Source code available <a href="https://github.com/MSD-IRIMAS/msd-irimas.github.io">here</a>.
+            This webpage is created by <a href="https://hadifawaz1999.github.io/">Ali Ismail-Fawaz</a> and <a href="https://maxime-devanne.com/">Maxime Devanne</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

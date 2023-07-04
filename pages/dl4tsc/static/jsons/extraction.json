@@ -1,0 +1,99 @@
+{
+
+    "legend_image_src" : "images/models/legend.png",
+
+    "dl4tsc" : [
+
+        {
+            "title" : "Fully Convolutional Network (FCN)",
+            "number_of_params" : 264704,
+            "flops" : 266850.0,
+            "image_src" : "images/models/FCN.png",
+            "name" : "FCN",
+            "paper" : "Wang et al. <a href=\"https://doi.org/10.1109/IJCNN.2017.7966039\">Time series classification from scratch with deep neural networks: A strong baseline</a>. 2017 International joint conference on neural networks (IJCNN). IEEE, 2017"
+        },
+
+        {
+            "title" : "Residual Network (ResNet)",
+            "number_of_params" : 504000,
+            "flops" : 507818.0,
+            "image_src" : "images/models/ResNet.png",
+            "name" : "ResNet",
+            "paper" : "Wang et al. <a href=\"https://doi.org/10.1109/IJCNN.2017.7966039\">Time series classification from scratch with deep neural networks: A strong baseline</a>. 2017 International joint conference on neural networks (IJCNN). IEEE, 2017"
+        },
+
+        {
+            "title" : "Multi Layer Perceptron (MLP)",
+            "number_of_params" : 551500,
+            "flops" : 771640.71875,
+            "image_src" : "images/models/MLP.png",
+            "name" : "MLP",
+            "paper" : "Wang et al. <a href=\"https://doi.org/10.1109/IJCNN.2017.7966039\">Time series classification from scratch with deep neural networks: A strong baseline</a>. 2017 International joint conference on neural networks (IJCNN). IEEE, 2017"
+        },
+
+        {
+            "title" : "Encoder",
+            "number_of_params" : 3183488,
+            "flops" : 3576251.0,
+            "image_src" : "images/models/Encoder.png",
+            "name" : "Encoder",
+            "paper" : "Serrà et al. <a href=\"https://doi.org/10.3233/978-1-61499-918-8-120\">Towards a Universal Neural Network Encoder for Time Series</a>. CCIA. 2018."
+        },
+
+        {
+            "title" : "Time Convolutional Neural Network (TimeCNN)",
+            "number_of_params" : 564,
+            "flops" : 8495.53125,
+            "image_src" : "images/models/TimeCNN.png",
+            "name" : "TimeCNN",
+            "paper" : "Zhao et al. <a href=\"https://doi.org/10.21629/JSEE.2017.01.18\">Convolutional neural networks for time series classification</a>. Journal of Systems Engineering and Electronics 28.1 (2017)"
+        },
+
+        {
+            "title" : "Multi Channel Deep Convolutional Neural Network (MCDCNN)",
+            "number_of_params" : 129940,
+            "flops" : 771102.8125,
+            "image_src" : "images/models/MCDCNN.png",
+            "name" : "MCDCNN",
+            "paper" : "Zheng et al. (2014) <a href=\"https://doi.org/10.1007/978-3-319-08010-9_33\">Time series classification using multi-channels deep convolutional neural networks</a>. In: Web-Age Information Management,"
+        },
+
+        {
+            "title" : "InceptionTime (Ensemble of five Inception)",
+            "number_of_params" : 2100960,
+            "flops" : 2122070.0,
+            "image_src" : "images/models/InceptionTime.png",
+            "name" : "InceptionTime",
+            "paper" : "Ismail Fawaz et al. <a href=\"https://doi.org/10.1007/s10618-020-00710-y\">Inceptiontime: Finding alexnet for time series classification</a>. Data Mining and Knowledge Discovery 34.6 (2020)"
+        },
+
+        {
+            "title" : "Hybrid InceptionTime (H-InceptionTime, Ensemble of five H-Inception)",
+            "number_of_params" : 2106570,
+            "flops" : 2127935.0,
+            "image_src" : "images/models/H-InceptionTime.png",
+            "name" : "H-InceptionTime",
+            "paper" : "Ismail-Fawaz et al. <a href=\"https://doi.org/10.1109/BigData55660.2022.10020496\">Deep Learning For Time Series Classification Using New Hand-Crafted Convolution Filters</a>, 2022 IEEE International Conference on Big Data (Big Data), Osaka, Japan, 2022"
+        },
+
+        {
+            "title" : "Custom Only Fully Convolutional Network (CO-FCN)",
+            "number_of_params" : 122496,
+            "flops" : 124385.0,
+            "image_src" : "images/models/CO-FCN.png",
+            "name" : "CO-FCN",
+            "paper" : "Ismail-Fawaz et al. <a href=\"https://doi.org/10.1109/BigData55660.2022.10020496\">Deep Learning For Time Series Classification Using New Hand-Crafted Convolution Filters</a>, 2022 IEEE International Conference on Big Data (Big Data), Osaka, Japan, 2022"
+        },
+
+        {
+            "title" : "Hybrid Fully Convolutional Network (H-FCN)",
+            "number_of_params" : 77440,
+            "flops" : 78771.0,
+            "image_src" : "images/models/H-FCN.png",
+            "name" : "H-FCN",
+            "paper" : "Ismail-Fawaz et al. <a href=\"https://doi.org/10.1109/BigData55660.2022.10020496\">Deep Learning For Time Series Classification Using New Hand-Crafted Convolution Filters</a>, 2022 IEEE International Conference on Big Data (Big Data), Osaka, Japan, 2022"
+        }
+
+    ]
+
+}
