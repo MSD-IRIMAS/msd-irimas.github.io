@@ -66,6 +66,12 @@
 	],
 	"phd":[
 		{
+			"firstname": "Javidan",
+			"lastname": "Abdullayev",
+			"link": "https://az.linkedin.com/in/cavidan-abdullayev-83289815b",
+			"pic_links": ["imgs/people/javidan.png"]
+		},
+		{
 			"firstname": "Marceau",
 			"lastname": "Bamond",
 			"link": "#",
@@ -88,12 +94,6 @@
 			"lastname": "Hamri",
 			"link": "https://fr.linkedin.com/in/mouad-hamri-3635aa19",
 			"pic_links": ["imgs/people/mouad.png"]
-		},
-		{
-			"firstname": "Robin",
-			"lastname": "Heckenauer",
-			"link": "https://www.researchgate.net/profile/Robin-Heckenauer-2",
-			"pic_links": ["imgs/people/robin.jpeg"]
 		},
 		{
 			"firstname": "Vasile",
@@ -126,12 +126,6 @@
 			"pic_links": ["imgs/people/joachim.png"]
 		},
 		{
-			"firstname": "Alicia",
-			"lastname": "Roux",
-			"link": "https://fr.linkedin.com/in/alicia-roux-797b6715a",
-			"pic_links": ["imgs/people/alicia.jpg"]
-		},
-		{
 			"firstname": "Olivier",
 			"lastname": "Schirm",
 			"link": "#",
@@ -141,30 +135,12 @@
 	"postdoc":[
 		{
 			"firstname": "Oumaima",
-			"lastname": "Jrad",
+			"lastname": "Sliti",
 			"link": "#",
 			"pic_links": ["imgs/people/oumaima.jpg"]
 		}
 	],
 	"engineer":[
-		{
-			"firstname": "Javidan",
-			"lastname": "Abdullayev",
-			"link": "https://az.linkedin.com/in/cavidan-abdullayev-83289815b",
-			"pic_links": ["imgs/people/javidan.png"]
-		},
-		{
-			"firstname": "Aya",
-			"lastname": "Gouiaa",
-			"link": "https://fr.linkedin.com/in/aya-gouiaa-a388531b8",
-			"pic_links": ["imgs/people/aya.jpg"]
-		},
-		{
-			"firstname": "Elvin",
-			"lastname": "Ismayilzada",
-			"link": "https://az.linkedin.com/in/elvin-ismayilzada-4679251a3",
-			"pic_links": ["imgs/people/elvin.jpeg"]
-		}
 	],
 	"alumni":[
 		{
@@ -192,16 +168,34 @@
 			"pic_links": ["imgs/people/Milos.jpg"]
 		},
 		{
+			"firstname": "Aya",
+			"lastname": "Gouiaa",
+			"link": "https://fr.linkedin.com/in/aya-gouiaa-a388531b8",
+			"pic_links": ["imgs/people/aya.jpg"]
+		},
+		{
 			"firstname": "Laman",
 			"lastname": "Hasanli",
 			"link": "https://fr.linkedin.com/in/lhasanli",
 			"pic_links": ["imgs/people/laman.jpeg"]
 		},
 		{
+			"firstname": "Robin",
+			"lastname": "Heckenauer",
+			"link": "https://www.researchgate.net/profile/Robin-Heckenauer-2",
+			"pic_links": ["imgs/people/robin.jpeg"]
+		},
+		{
 			"firstname": "Hassan",
 			"lastname": "Ismail Fawaz",
 			"link": "https://hfawaz.github.io/",
 			"pic_links": ["imgs/people/hassan.png"]
+		},
+		{
+			"firstname": "Elvin",
+			"lastname": "Ismayilzada",
+			"link": "https://az.linkedin.com/in/elvin-ismayilzada-4679251a3",
+			"pic_links": ["imgs/people/elvin.jpeg"]
 		},
 		{
 			"firstname": "Baptiste",
@@ -214,6 +208,12 @@
 			"lastname": "Latard",
 			"link": "https://scholar.google.fr/citations?user=VkN3Z24AAAAJ",
 			"pic_links": ["imgs/people/bastien.jpg"]
+		},
+		{
+			"firstname": "Alicia",
+			"lastname": "Roux",
+			"link": "https://fr.linkedin.com/in/alicia-roux-797b6715a",
+			"pic_links": ["imgs/people/alicia.jpg"]
 		},
 		{
 			"firstname": "Tsegamlak",

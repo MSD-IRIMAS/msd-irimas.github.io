@@ -1,6 +1,38 @@
 {
 	"news":[
 		{
+			"date": "2023.10",
+			"content": "<a href=\"https://www.linkedin.com/in/javidan-abdullayev-83289815b/\" target=\"_blank\">Javidan Abdullayev</a> starts his PhD in the <a href=\"https://msd-irimas.github.io\" target=\"_blank\">MSD</a> team on deep learning for time series"
+		},
+		{
+			"date": "2023.09",
+			"content": "Ali El Hadi Ismail Fawaz was at <a href=\"https://ecml-aaltd.github.io/aaltd2023/\" target=\"_blank\">AALTD 2023</a> (ECML/PKDD) to present his work on Shape DBA!"
+		},
+		{
+			"date": "2023.09",
+			"content": "Congratulation to <a href=\"https://fr.linkedin.com/in/alicia-roux-797b6715a\" target=\"_blank\">Alicia Roux</a> who defended his PhD!"
+		},
+		{
+			"date": "2023.09",
+			"content": "<a href=\"https://scholar.google.com/citations?user=91Dr6_EAAAAJ&hl=en\" target=\"_blank\">Morgan Sangeux</a>, Researcher at University Children's Hospital Basel, visited our group"
+		},
+		{
+			"date": "2023.08",
+			"content": "One journal paper accepted in <a href=\"https://www.springer.com/journal/41060\" target=\"_blank\">International Journal of Data Science and Analytics</a> on adversarial attacks!"
+		},
+		{
+			"date": "2023.07",
+			"content": "One conference paper accepted at <a href=\"https://conferences.sigappfr.org/dsaa2023/\" target=\"_blank\">DSAA 2023</a> on time series classification!"
+		},
+		{
+			"date": "2023.07",
+			"content": "One paper accepted at <a href=\"https://ecml-aaltd.github.io/aaltd2023/\" target=\"_blank\">AALTD 2023</a> on time series prototypes generation!"
+		},
+		{
+			"date": "2023.07",
+			"content": "Congratulation to <a href=\"https://www.researchgate.net/profile/Robin-Heckenauer-2\" target=\"_blank\">Robin Heckenauer</a> who defended his PhD!"
+		},
+		{
 			"date": "2023.06",
 			"content": "Robin Heckenauer was at <a href=\"https://2023.cbms-conference.org\" target=\"_blank\">CBMS 2023</a> to present our work on DL for colon cancer mutation detection"
 		},
