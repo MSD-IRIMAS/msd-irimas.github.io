@@ -1,6 +1,18 @@
 {
 	"news":[
 		{
+			"date": "2023.12",
+			"content": "Welcome to Gilberto Barbosa and Andre Mitri, research students from <a href=\"https://labic.icmc.usp.br\" target=\"_blank\">LABIC</a>, University of São Paulo visiting our group for few months!"
+		},
+		{
+			"date": "2023.11",
+			"content": "New paper on arxiv on <a href=\"https://arxiv.org/abs/2311.14534\" target=\"_blank\">Foundation Models for Time Series Classification</a>!"
+		},
+		{
+			"date": "2023.10",
+			"content": "Ali El Hadi Ismail Fawaz was at <a href=\"https://conferences.sigappfr.org/dsaa2023/\" target=\"_blank\">DSAA 2023</a> to present his new work called <a href=\"https://maxime-devanne.com/publis/ismail-fawaz_dsaa2023.pdf\" target=\"_blank\">LITE</a>"
+		},
+		{
 			"date": "2023.10",
 			"content": "<a href=\"https://www.linkedin.com/in/javidan-abdullayev-83289815b/\" target=\"_blank\">Javidan Abdullayev</a> starts his PhD in the <a href=\"https://msd-irimas.github.io\" target=\"_blank\">MSD</a> team on deep learning for time series"
 		},
@@ -10,7 +22,7 @@
 		},
 		{
 			"date": "2023.09",
-			"content": "Congratulation to <a href=\"https://fr.linkedin.com/in/alicia-roux-797b6715a\" target=\"_blank\">Alicia Roux</a> who defended his PhD!"
+			"content": "Congratulation to <a href=\"https://fr.linkedin.com/in/alicia-roux-797b6715a\" target=\"_blank\">Alicia Roux</a> who defended her PhD!"
 		},
 		{
 			"date": "2023.09",
