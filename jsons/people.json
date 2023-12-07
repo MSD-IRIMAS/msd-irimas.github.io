@@ -72,12 +72,6 @@
 			"pic_links": ["imgs/people/javidan.png"]
 		},
 		{
-			"firstname": "Marceau",
-			"lastname": "Bamond",
-			"link": "#",
-			"pic_links": ["imgs/people/marseau.jpg"]
-		},
-		{
 			"firstname": "Bruno",
 			"lastname": "Come",
 			"link": "https://www.linkedin.com/in/bruno-côme-5b907487",
@@ -133,12 +127,6 @@
 		}
 	],
 	"postdoc":[
-		{
-			"firstname": "Oumaima",
-			"lastname": "Sliti",
-			"link": "#",
-			"pic_links": ["imgs/people/oumaima.jpg"]
-		}
 	],
 	"engineer":[
 	],
@@ -214,6 +202,12 @@
 			"lastname": "Roux",
 			"link": "https://fr.linkedin.com/in/alicia-roux-797b6715a",
 			"pic_links": ["imgs/people/alicia.jpg"]
+		},
+		{
+			"firstname": "Oumaima",
+			"lastname": "Sliti",
+			"link": "#",
+			"pic_links": ["imgs/people/oumaima.jpg"]
 		},
 		{
 			"firstname": "Tsegamlak",
