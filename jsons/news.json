@@ -1,6 +1,14 @@
 {
 	"news":[
 		{
+			"date": "2024.01",
+			"content": "Our team is in Dijon to give a tutorial on <a href=\"https://msd-irimas.github.io/pages/dl4tsc/\" target=\"_blank\">Deep Learning for Time Series Classification</a> at <a href=\"https://iutdijon.u-bourgogne.fr/egc2024/\" target=\"_blank\">EGC 2024</a>"
+		},
+		{
+			"date": "2023.12",
+			"content": "Our <a href=\"https://sites.google.com/view/lfa-fg2024/\" target=\"_blank\"> 2nd Workshop on Learning with few or without annotated face, body and gesture data</a> has been accepted at <a href=\"http://fg2024.ieee-biometrics.org\" target=\"_blank\">FG 2024</a>"
+		},
+		{
 			"date": "2023.12",
 			"content": "Welcome to Gilberto Barbosa and Andre Mitri, students from <a href=\"https://labic.icmc.usp.br\" target=\"_blank\">University of São Paulo</a>, visiting our group for few months!"
 		},
