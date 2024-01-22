@@ -1,16 +1,6 @@
 {
 	"current":[
 		{
-			"name": "Enygma",
-			"link": "",
-			"date": "2022-",
-			"topic": "Anomaly and fraud detection from banking data",
-			"partners": ["MoviDone"],
-			"partners_links": ["https://www.movidone.com"],
-			"role": "Partner",
-			"fundings": "Région Grand-Est"
-		},
-		{
 			"name": "DELEGATION",
 			"link": "https://maxime-devanne.com/delegation/",
 			"date": "2022-",
@@ -41,16 +31,6 @@
 			"fundings": "ANR (JCJC instrument)"
 		},
 		{
-			"name": "APIAC",
-			"link": "",
-			"date": "2021-",
-			"topic": "Deep learning for anomaly detection in non-destructive control",
-			"partners": ["IMTI team (IRIMAS)", "Cetim Grand Est"],
-			"partners_links": ["https://www.irimas.uha.fr/index.php/departements/departement-automatique-signal-et-image/","https://www.cetimgrandest.fr"],
-			"role": "Partner",
-			"fundings": "Région Grand Est"
-		},
-		{
 		 	"name": "Mi*EDGE",
 		 	"link": "https://www.era-learn.eu/network-information/networks/eracosysmed/3rd-joint-transnational-call-for-european-research-projects-on-systems-medicine/modelling-cell-plasticity-at-the-invasive-edge-to-diminish-glioblastoma-early-relapse-risk",
 		 	"date": "2020-",
@@ -59,11 +39,33 @@
 		 	"partners_links": ["https://sdc.icube.unistra.fr/en/index.php?title=Home", "https://www.mhh.de/institute-zentren-forschungseinrichtungen/institut-fuer-pathologie", "https://tu-dresden.de", "https://5x1000.humanitas.it/news/locati-massimo/", "https://wwwfr.uni.lu/lcsb"],
 		 	"role": "Partner",
 		 	"fundings": "ERACoSysmed/ANR"
+		}
+	],
+	"past":[
+		{
+			"name": "Enygma",
+			"link": "",
+			"date": "2022-2023",
+			"topic": "Anomaly and fraud detection from banking data",
+			"partners": ["MoviDone"],
+			"partners_links": ["https://www.movidone.com"],
+			"role": "Partner",
+			"fundings": "Région Grand-Est"
+		},
+		{
+			"name": "APIAC",
+			"link": "",
+			"date": "2021-2023",
+			"topic": "Deep learning for anomaly detection in non-destructive control",
+			"partners": ["IMTI team (IRIMAS)", "Cetim Grand Est"],
+			"partners_links": ["https://www.irimas.uha.fr/index.php/departements/departement-automatique-signal-et-image/","https://www.cetimgrandest.fr"],
+			"role": "Partner",
+			"fundings": "Région Grand Est"
 		},
 		{
 			"name": "AiCOLO",
 			"link": "https://wemmertc.github.io/aicolo/",
-			"date": "2019-",
+			"date": "2019-2023",
 			"topic": "Artificial intelligence to determine prognosis and mutation status in colorectal cancer using histological slides",
 			"partners": ["ICube","CGFL"],
 			"partners_links": ["https://sdc.icube.unistra.fr/en/index.php?title=Home", "https://www.cgfl.fr"],
@@ -73,15 +75,13 @@
 		{
 		 	"name": "TIMES",
 		 	"link": "http://anr-times.unistra.fr/",
-		 	"date": "2017-",
+		 	"date": "2017-2023",
 		 	"topic": "Geoscience and remote sensing data analysis and monitoring",
 		 	"partners": ["LIVE","EOST","LIPADE"],
 		 	"partners_links": ["https://live.unistra.fr/", "https://eost.unistra.fr/en/", "http://lipade.mi.parisdescartes.fr/?lang=fr"],
 		 	"role": "Partner",
 		 	"fundings": "ANR"
 		}
-	],
-	"past":[
 		{
 			"name": "DeepRehab",
 			"link": "",
