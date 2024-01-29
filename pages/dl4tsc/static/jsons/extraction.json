@@ -77,6 +77,15 @@
         },
 
         {
+            "title" : "Light Inception with boosTing tEchniques Time (LITETime, Ensebmble of five LITE)",
+            "number_of_params" :49070 ,
+            "flops" : 53160.0,
+            "image_src" : "images/models/LITE.png",
+            "name" : "LITETime",
+            "paper" : "Ismail-Fawaz et al. <a href=\"https://ieeexplore.ieee.org/document/10302569\">LITE: Light Inception with boosTing tEchniques for Time Series Classification</a>, 2023 IEEE International Conference on Data Science and Advanced Analytics (DSAA), Thessaloniki, Greece, 2023"
+        },
+
+        {
             "title" : "Custom Only Fully Convolutional Network (CO-FCN)",
             "number_of_params" : 122496,
             "flops" : 124385.0,
