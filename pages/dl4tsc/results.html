@@ -49,11 +49,146 @@
         </p>
       </div>
     </div>
+    <select id="params-datasets" name="datasets" onchange="chooseDataset()">
+
+      <option value="all-datasets">All Datasets</option>
+      
+      <option value="Beef">Beef</option>
+      <option value="Coffee">Coffee</option>
+      <option value="Yoga">Yoga</option>
+      <option value="Car">Car</option>
+      <option value="CinCECGTorso">CinCECGTorso</option>
+      <option value="Adiac">Adiac</option>
+      <option value="ArrowHead">ArrowHead</option>
+      <option value="BeetleFly">BeetleFly</option>
+      <option value="BirdChicken">BirdChicken</option>
+      <option value="CBF">CBF</option>
+      <option value="ChlorineConcentration">ChlorineConcentration</option>
+      <option value="Computers">Computers</option>
+      <option value="CricketX">CricketX</option>
+      <option value="CricketY">CricketY</option>
+      <option value="CricketZ">CricketZ</option>
+      <option value="DiatomSizeReduction">DiatomSizeReduction</option>
+      <option value="DistalPhalanxOutlineAgeGroup">DistalPhalanxOutlineAgeGroup</option>
+      <option value="DistalPhalanxOutlineCorrect">DistalPhalanxOutlineCorrect</option>
+      <option value="DistalPhalanxTW">DistalPhalanxTW</option>
+      <option value="Earthquakes">Earthquakes</option>
+      <option value="ECG200">ECG200</option>
+      <option value="ECG5000">ECG5000</option>
+      <option value="ECGFiveDays">ECGFiveDays</option>
+      <option value="Wine">Wine</option>
+      <option value="FaceAll">FaceAll</option>
+      <option value="FaceFour">FaceFour</option>
+      <option value="FacesUCR">FacesUCR</option>
+      <option value="FiftyWords">FiftyWords</option>
+      <option value="Fish">Fish</option>
+      <option value="GunPoint">GunPoint</option>
+      <option value="Ham">Ham</option>
+      <option value="Haptics">Haptics</option>
+      <option value="Herring">Herring</option>
+      <option value="InlineSkate">InlineSkate</option>
+      <option value="InsectWingbeatSound">InsectWingbeatSound</option>
+      <option value="ItalyPowerDemand">ItalyPowerDemand</option>
+      <option value="LargeKitchenAppliances">LargeKitchenAppliances</option>
+      <option value="Lightning2">Lightning2</option>
+      <option value="Lightning7">Lightning7</option>
+      <option value="Mallat">Mallat</option>
+      <option value="Meat">Meat</option>
+      <option value="MedicalImages">MedicalImages</option>
+      <option value="MiddlePhalanxOutlineAgeGroup">MiddlePhalanxOutlineAgeGroup</option>
+      <option value="MiddlePhalanxOutlineCorrect">MiddlePhalanxOutlineCorrect</option>
+      <option value="MiddlePhalanxTW">MiddlePhalanxTW</option>
+      <option value="MoteStrain">MoteStrain</option>
+      <option value="OliveOil">OliveOil</option>
+      <option value="OSULeaf">OSULeaf</option>
+      <option value="Phoneme">Phoneme</option>
+      <option value="Plane">Plane</option>
+      <option value="ProximalPhalanxOutlineAgeGroup">ProximalPhalanxOutlineAgeGroup</option>
+      <option value="ProximalPhalanxOutlineCorrect">ProximalPhalanxOutlineCorrect</option>
+      <option value="ProximalPhalanxTW">ProximalPhalanxTW</option>
+      <option value="RefrigerationDevices">RefrigerationDevices</option>
+      <option value="ScreenType">ScreenType</option>
+      <option value="ShapeletSim">ShapeletSim</option>
+      <option value="ShapesAll">ShapesAll</option>
+      <option value="SmallKitchenAppliances">SmallKitchenAppliances</option>
+      <option value="SonyAIBORobotSurface1">SonyAIBORobotSurface1</option>
+      <option value="SonyAIBORobotSurface2">SonyAIBORobotSurface2</option>
+      <option value="Strawberry">Strawberry</option>
+      <option value="SwedishLeaf">SwedishLeaf</option>
+      <option value="Symbols">Symbols</option>
+      <option value="SyntheticControl">SyntheticControl</option>
+      <option value="ToeSegmentation1">ToeSegmentation1</option>
+      <option value="ToeSegmentation2">ToeSegmentation2</option>
+      <option value="Trace">Trace</option>
+      <option value="TwoLeadECG">TwoLeadECG</option>
+      <option value="WordSynonyms">WordSynonyms</option>
+      <option value="Worms">Worms</option>
+      <option value="WormsTwoClass">WormsTwoClass</option>
+      <option value="ACSF1">ACSF1</option>
+      <option value="AllGestureWiimoteX">AllGestureWiimoteX</option>
+      <option value="AllGestureWiimoteY">AllGestureWiimoteY</option>
+      <option value="AllGestureWiimoteZ">AllGestureWiimoteZ</option>
+      <option value="BME">BME</option>
+      <option value="Chinatown">Chinatown</option>
+      <option value="DodgerLoopDay">DodgerLoopDay</option>
+      <option value="DodgerLoopGame">DodgerLoopGame</option>
+      <option value="DodgerLoopWeekend">DodgerLoopWeekend</option>
+      <option value="EOGHorizontalSignal">EOGHorizontalSignal</option>
+      <option value="EOGVerticalSignal">EOGVerticalSignal</option>
+      <option value="EthanolLevel">EthanolLevel</option>
+      <option value="FreezerRegularTrain">FreezerRegularTrain</option>
+      <option value="FreezerSmallTrain">FreezerSmallTrain</option>
+      <option value="Fungi">Fungi</option>
+      <option value="GestureMidAirD1">GestureMidAirD1</option>
+      <option value="GestureMidAirD2">GestureMidAirD2</option>
+      <option value="GestureMidAirD3">GestureMidAirD3</option>
+      <option value="GesturePebbleZ1">GesturePebbleZ1</option>
+      <option value="GesturePebbleZ2">GesturePebbleZ2</option>
+      <option value="GunPointAgeSpan">GunPointAgeSpan</option>
+      <option value="GunPointMaleVersusFemale">GunPointMaleVersusFemale</option>
+      <option value="GunPointOldVersusYoung">GunPointOldVersusYoung</option>
+      <option value="HouseTwenty">HouseTwenty</option>
+      <option value="InsectEPGRegularTrain">InsectEPGRegularTrain</option>
+      <option value="InsectEPGSmallTrain">InsectEPGSmallTrain</option>
+      <option value="MelbournePedestrian">MelbournePedestrian</option>
+      <option value="MixedShapesRegularTrain">MixedShapesRegularTrain</option>
+      <option value="MixedShapesSmallTrain">MixedShapesSmallTrain</option>
+      <option value="PickupGestureWiimoteZ">PickupGestureWiimoteZ</option>
+      <option value="PigAirwayPressure">PigAirwayPressure</option>
+      <option value="PigArtPressure">PigArtPressure</option>
+      <option value="PigCVP">PigCVP</option>
+      <option value="PLAID">PLAID</option>
+      <option value="PowerCons">PowerCons</option>
+      <option value="Rock">Rock</option>
+      <option value="SemgHandGenderCh2">SemgHandGenderCh2</option>
+      <option value="SemgHandMovementCh2">SemgHandMovementCh2</option>
+      <option value="SemgHandSubjectCh2">SemgHandSubjectCh2</option>
+      <option value="ShakeGestureWiimoteZ">ShakeGestureWiimoteZ</option>
+      <option value="SmoothSubspace">SmoothSubspace</option>
+      <option value="UMD">UMD</option>
+      <option value="Crop">Crop</option>
+      <option value="ElectricDevices">ElectricDevices</option>
+      <option value="FordA">FordA</option>
+      <option value="FordB">FordB</option>
+      <option value="HandOutlines">HandOutlines</option>
+      <option value="NonInvasiveFetalECGThorax1">NonInvasiveFetalECGThorax1</option>
+      <option value="NonInvasiveFetalECGThorax2">NonInvasiveFetalECGThorax2</option>
+      <option value="PhalangesOutlinesCorrect">PhalangesOutlinesCorrect</option>
+      <option value="StarLightCurves">StarLightCurves</option>
+      <option value="TwoPatterns">TwoPatterns</option>
+      <option value="UWaveGestureLibraryAll">UWaveGestureLibraryAll</option>
+      <option value="UWaveGestureLibraryX">UWaveGestureLibraryX</option>
+      <option value="UWaveGestureLibraryY">UWaveGestureLibraryY</option>
+      <option value="UWaveGestureLibraryZ">UWaveGestureLibraryZ</option>
+      <option value="Wafer">Wafer</option>
+  
+    </select>
     <div class="columns is-vcentered">
           <div class="column is-12 has-text-centered">
             <div id="params-plot" class="columns is-centered">
               <div class="column is-8">
-                <iframe src="static/images/params/num-params-plot.html" style="width: 100%; height: 400px; border: none;"> </iframe>
+                <h1 id="params-title">All Datasets</h1>
+                <iframe id="params-plot-iframe" src="static/images/params/num-params-plot.html" style="width: 100%; height: 400px; border: none;"> </iframe>
               </div>
             </div>
           </div>

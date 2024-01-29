@@ -128,3 +128,22 @@ $(document).ready(function() {
 
 
 })
+
+function chooseDataset() {
+
+  var dropdown = document.getElementById("params-datasets");
+  var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+
+  var my_iframe = document.getElementById("params-plot-iframe");
+  var my_iframe_title = document.getElementById("params-title");
+
+  if (selectedValue == "all-datasets"){
+    my_iframe_title.textContent = "All Datasets";
+    my_iframe.src = "static/images/params/num-params-plot.html";
+  }
+  else {
+    my_iframe_title.textContent = selectedValue + " Dataset";
+    my_iframe.src = "static/images/params/per_data/"+selectedValue+"/num-params-plot.html";
+  }
+
+}
