@@ -383,18 +383,3 @@ $(document).ready(function(){
     } // End if
   });
 });
-
-
-// Function for load a highlited info if necessary
-$(document).ready(function(){
-  $.getJSON("jsons/highlight.json", function(data){
-  	console.log(data.news.length);
-   	if (data.news.length>0){
-   		link_string = '';
-   		if (data.news[0].link != ''){
-   			link_string = ' <a href="' + data.news[0].link + '" target="blank_">' + data.news[0].link_text + '</a>'
-   		}
-   		$("#highlight_news").append('<div class="alert alert-success" role="alert"><B>' + data.news[0].date + ' - ' + data.news[0].title + ':</B> ' + data.news[0].description + '.' + link_string + '</div>');
-   	}
-   });
-});
