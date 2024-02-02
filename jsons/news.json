@@ -6,6 +6,10 @@
 		},
 		{
 			"date": "2024.01",
+			"content": "We released a new web page dedicated to <a href=\"https://msd-irimas.github.io/pages/dl4tsc/\" target=\"_blank\">Deep Learning for Time Series Classification</a>!"
+		},
+		{
+			"date": "2024.01",
 			"content": "Our team is in Dijon to give a tutorial on <a href=\"https://msd-irimas.github.io/pages/dl4tsc/\" target=\"_blank\">Deep Learning for Time Series Classification</a> at <a href=\"https://iutdijon.u-bourgogne.fr/egc2024/\" target=\"_blank\">EGC 2024</a>"
 		},
 		{
