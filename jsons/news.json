@@ -1,6 +1,14 @@
 {
 	"news":[
 		{
+			"date": "2023.03",
+			"content": "<a href=\"https://research.monash.edu/en/persons/daniel-schmidt\" target=\"_blank\">Daniel Schmidt</a>, Senior Lecturer at Monash University, is visiting our group for two weeks"
+		},
+		{
+			"date": "2023.03",
+			"content": "Welcome to Anass, Elnur, Hadjar, Mathéo and Oumaima who just started their Master internship in our team!"
+		},
+		{
 			"date": "2024.02",
 			"content": "We have an open Associate Professor position in Computer Science in our team! <a href=\"https://maxime-devanne.com/jobs/PosteMCF27_MSD.pdf\" target=\"_blank\">More info (in french)</a>"
 		},
