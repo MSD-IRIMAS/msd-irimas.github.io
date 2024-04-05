@@ -266,8 +266,14 @@ $(document).ready(function(){
 				if (res[i].entryTags.hasOwnProperty('number')){
 					num_string = '(' + res[i].entryTags.number + ') ';
 				}
-				res[i].entryTags.pages = res[i].entryTags.pages.replace("--", "-")
-				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.journal + ', Vol. ' + res[i].entryTags.volume + num_string + ', pp. ' + res[i].entryTags.pages + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
+				pages_string=""
+				if (res[i].entryTags.hasOwnProperty('pages')){
+					res[i].entryTags.pages = res[i].entryTags.pages.replace("--", "-");
+					if (res[i].entryTags.pages!=""){
+						pages_string = ', pp. ' + res[i].entryTags.pages;
+					}
+				}
+				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.journal + ', Vol. ' + res[i].entryTags.volume + num_string + pages_string + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
 				$("#nat_journals").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptIntArticle + ']</td><td>' + publi_string + '</td></tr>');
 				if (res[i].entryTags.hasOwnProperty('number')){
 					$("#nat_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  number = {' + res[i].entryTags.number + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.URL + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
