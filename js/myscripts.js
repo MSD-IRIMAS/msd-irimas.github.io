@@ -269,7 +269,7 @@ $(document).ready(function(){
 				pages_string=""
 				if (res[i].entryTags.hasOwnProperty('pages')){
 					res[i].entryTags.pages = res[i].entryTags.pages.replace("--", "-");
-					if (res[i].entryTags.pages!=""){
+					if (res[i].entryTags.pages.length > 0){
 						pages_string = ', pp. ' + res[i].entryTags.pages;
 					}
 				}
