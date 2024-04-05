@@ -268,11 +268,11 @@ $(document).ready(function(){
 				}
 				pages_string=""
 				if (res[i].entryTags.hasOwnProperty('pages')){
+					console.log(res[i].entryTags.pages);
 					res[i].entryTags.pages = res[i].entryTags.pages.replace("--", "-");
 					if (res[i].entryTags.pages.length > 0){
 						pages_string = ', pp. ' + res[i].entryTags.pages;
 					}
-					else{console.log(res[i].entryTags.pages.length)}
 				}
 				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.journal + ', Vol. ' + res[i].entryTags.volume + num_string + pages_string + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
 				$("#nat_journals").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptIntArticle + ']</td><td>' + publi_string + '</td></tr>');
