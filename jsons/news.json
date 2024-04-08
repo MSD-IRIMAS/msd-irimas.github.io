@@ -2,23 +2,23 @@
 	"news":[
 		{
 			"date": "2024.04",
-			"content": "A paper on Human Motion Generation got accepted at <a href=\"https://brain.korea.ac.kr/icprai2024/\">ICPRAI 2024</a>."
+			"content": "One conference paper accepted at <a href=\"https://brain.korea.ac.kr/icprai2024/\" target=\"_blank\">ICPRAI 2024</a> on human motion generation."
 		},
 		{
 			"date": "2023.03",
-			"content": "<a href=\"https://research.monash.edu/en/persons/daniel-schmidt\" target=\"_blank\">Daniel Schmidt</a>, Senior Lecturer at Monash University, is visiting our group for two weeks"
+			"content": "<a href=\"https://research.monash.edu/en/persons/daniel-schmidt\" target=\"_blank\">Daniel Schmidt</a>, Senior Lecturer at Monash University, is visiting our group for two weeks."
 		},
 		{
 			"date": "2023.03",
-			"content": "Welcome to Anass, Elnur, Hadjar, Mathéo and Oumaima who just started their Master internship in our team!"
+			"content": "Welcome to Anass, Elnur, Hadjar, Mathéo Nada, and Oumaima who just started their Master internship in our team!"
 		},
 		{
 			"date": "2024.02",
-			"content": "A paper on <a href=\"https://arxiv.org/abs/2311.14534\">Foundation Models for Time Series Classification</a> got accepted at the <a href=\"https://monashts.github.io/International-Workshop-on-Temporal-Analytics/\">IWTA workshop</a> <a href=\"https://pakdd2024.org\">@PAKDD2024</a>."
+			"content": "A conference paper accepted at the <a href=\"https://monashts.github.io/International-Workshop-on-Temporal-Analytics/\" target=\"_blank\">IWTA workshop</a> <a href=\"https://pakdd2024.org\" target=\"_blank\">@PAKDD2024</a> on <a href=\"https://arxiv.org/abs/2311.14534\" target=\"_blank\">Foundation Models for Time Series Classification</a>."
 		},
 		{
 			"date": "2024.02",
-			"content": "An <a href=\"https://dl.acm.org/journal/csur\">ACM Computing Surveys</a> paper on <a href=\"https://doi.org/10.1145/3649448\">Deep Learning for Time Series Classification and Regression</a> in collaboration with Monash University."
+			"content": "A journal paper accepted at <a href=\"https://dl.acm.org/journal/csur\" target=\"_blank\">ACM Computing Surveys</a> on <a href=\"https://doi.org/10.1145/3649448\" target=\"_blank\">DL for Time Series Classification and Regression</a> in collaboration with Monash University."
 		},
 		{
 			"date": "2024.02",
