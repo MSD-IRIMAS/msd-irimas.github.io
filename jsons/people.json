@@ -76,8 +76,8 @@
 		{
 			"firstname": "Oumaima",
 			"lastname": "Badi",
-			"link": "#",
-			"pic_links": ["imgs/people/femme.png"],
+			"link": "https://www.linkedin.com/in/oumaima-badi-837060237",
+			"pic_links": ["imgs/people/badi.jpg"],
 			"position": "Master student",
 			"dates" : "2023"
 		},
@@ -100,7 +100,7 @@
 		{
 			"firstname": "Hadjar Aroua",
 			"lastname": "Ferrar",
-			"link": "#",
+			"link": "https://www.linkedin.com/in/hadjer-aroua-ferrar/",
 			"pic_links": ["imgs/people/femme.png"],
 			"position": "Master student",
 			"dates" : "2023"
@@ -148,15 +148,15 @@
 		{
 			"firstname": "Elnur",
 			"lastname": "Maharramov",
-			"link": "#",
-			"pic_links": ["imgs/people/homme.png"],
+			"link": "https://az.linkedin.com/in/elnur-meherremov",
+			"pic_links": ["imgs/people/elnur.png"],
 			"position": "Master student",
 			"dates" : "2023"
 		},
 		{
 			"firstname": "Mathéo",
 			"lastname": "Marcout",
-			"link": "#",
+			"link": "https://matheobis.net/",
 			"pic_links": ["imgs/people/homme.png"],
 			"position": "Master student",
 			"dates" : "2023"
