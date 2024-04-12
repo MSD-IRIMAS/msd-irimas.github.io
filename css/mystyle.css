@@ -129,3 +129,38 @@ tr.entry>td {
     background-color: var(--main-color3);
     border-color: var(--main-color2)
 }
+
+.flip-card {
+    max-width: 200px;
+    aspect-ratio : 1 / 1;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    background-color: var(--main-color2);
+    color: var(--main-color1);
+    transform: rotateY(180deg);
+    border: 1px solid rgb(218, 222, 218);
+}

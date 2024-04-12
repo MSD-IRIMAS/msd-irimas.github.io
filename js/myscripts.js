@@ -146,50 +146,27 @@ $(document).ready(function(){
 		$("#permanent").append(content_permanent);
 		//phd
 		content_phd = '<div class="row">';
-		for (var i=0; i<data.phd.length; i++){
-			row_pic = '<div class="col-md-2" align="center"><img src="' + data.phd[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"><br>';
-			row_name = '<a href="' + data.phd[i].link + '" target="_blank">' + data.phd[i].firstname + '<br>' + data.phd[i].lastname + '</a></div>';
+		for (var i=0; i<data.student.length; i++){
+			row_pic_front = '<div class="flip-card-front"><img src="' + data.student[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"></div>';
+			row_pic_back = '<div class="flip-card-back img-thumbnail"><br><br><p>' + data.student[i].position + '</p><p>' + data.student[i].dates + '</p></div>'
+			row_pic = '<div class="col-md-2" align="center"><div class="flip-card"><div class="flip-card-inner">' + row_pic_front + row_pic_back + '</div></div>'
+			row_name = '<a href="' + data.student[i].link + '" target="_blank">' + data.student[i].firstname + '<br>' + data.student[i].lastname + '</a></div>';
 			content_phd = content_phd + row_pic + row_name;
 			if (((i+1)%max_cols)==0){// create a new row
 				content_phd = content_phd + '</div><div class="row">';
 			}
 		}
-		if ((data.phd.length%max_cols)==0){
+		if ((data.student.length%max_cols)==0){
 			content_phd = content_phd + '</div>';
 		}
-		$("#phd").append(content_phd);
-		//postdocs
-		content_postdoc = '<div class="row">';
-		for (var i=0; i<data.postdoc.length; i++){
-			row_pic = '<div class="col-md-2" align="center"><img src="' + data.postdoc[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"><br>';
-			row_name = '<a href="' + data.postdoc[i].link + '" target="_blank">' + data.postdoc[i].firstname + '<br>' + data.postdoc[i].lastname + '</a></div>';
-			content_postdoc = content_postdoc + row_pic + row_name;
-			if (((i+1)%max_cols)==0){// create a new row
-				content_postdoc = content_postdoc + '</div><div class="row">';
-			}
-		}
-		if ((data.postdoc.length%max_cols)==0){
-			content_postdoc = content_postdoc + '</div>';
-		}
-		$("#postdocs").append(content_postdoc);
-		//engineers
-		content_engineer = '<div class="row">';
-		for (var i=0; i<data.engineer.length; i++){
-			row_pic = '<div class="col-md-2" align="center"><img src="' + data.engineer[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"><br>';
-			row_name = '<a href="' + data.engineer[i].link + '" target="_blank">' + data.engineer[i].firstname + '<br>' + data.engineer[i].lastname + '</a></div>';
-			content_engineer = content_engineer + row_pic + row_name;
-			if (((i+1)%max_cols)==0){// create a new row
-				content_engineer = content_engineer + '</div><div class="row">';
-			}
-		}
-		if ((data.engineer.length%max_cols)==0){
-			content_engineer = content_engineer + '</div>';
-		}
-		$("#engineers").append(content_engineer);
+		$("#students").append(content_phd);
 		//alumnis
 		content_alumnis = '<div class="row">';
 		for (var i=0; i<data.alumni.length; i++){
-			row_pic = '<div class="col-md-2" align="center"><img src="' + data.alumni[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"><br>';
+			//row_pic = '<div class="col-md-2" align="center"><img src="' + data.alumni[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"><br>';
+			row_pic_front = '<div class="flip-card-front"><img src="' + data.alumni[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"></div>';
+			row_pic_back = '<div class="flip-card-back img-thumbnail"><br><br><p>' + data.alumni[i].position + '</p><p>' + data.alumni[i].dates + '</p></div>'
+			row_pic = '<div class="col-md-2" align="center"><div class="flip-card"><div class="flip-card-inner">' + row_pic_front + row_pic_back + '</div></div>'
 			row_name = '<a href="' + data.alumni[i].link + '" target="_blank">' + data.alumni[i].firstname + '<br>' + data.alumni[i].lastname + '</a></div>';
 			content_alumnis = content_alumnis + row_pic + row_name;
 			if (((i+1)%max_cols)==0){// create a new row
@@ -200,6 +177,19 @@ $(document).ready(function(){
 			content_alumnis = content_alumnis + '</div>';
 		}
 		$("#alumnis").append(content_alumnis);
+		var hidden_alumnis= true;
+		$('#alumnis').hide();
+		$('#see-alumnis').click(function () {
+	        if (hidden_alumnis){
+	        	$('#alumnis').show();
+	        	$('#see-alumnis').html('<i class="fas fa-search-minus"></i>');
+	        	hidden_alumnis = false;
+	        }else{
+	        	$('#alumnis').hide();
+	        	$('#see-alumnis').html('<i class="fas fa-search-plus"></i>');
+	        	hidden_alumnis = true;
+	        }
+	    });
 	});
 });
 

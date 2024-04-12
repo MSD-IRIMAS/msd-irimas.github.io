@@ -64,66 +64,134 @@
 			"pic_links": ["imgs/people/LT.png"]
 		}
 	],
-	"phd":[
+	"student":[
 		{
 			"firstname": "Javidan",
 			"lastname": "Abdullayev",
 			"link": "https://az.linkedin.com/in/cavidan-abdullayev-83289815b",
-			"pic_links": ["imgs/people/javidan.png"]
+			"pic_links": ["imgs/people/javidan.png"],
+			"position": "PhD student",
+			"dates" : "2023-now"
+		},
+		{
+			"firstname": "Oumaima",
+			"lastname": "Badi",
+			"link": "#",
+			"pic_links": ["imgs/people/femme.png"],
+			"position": "Master student",
+			"dates" : "2023"
 		},
 		{
 			"firstname": "Bruno",
 			"lastname": "Come",
 			"link": "https://www.linkedin.com/in/bruno-côme-5b907487",
-			"pic_links": ["imgs/people/bruno.jpeg"]
+			"pic_links": ["imgs/people/bruno.jpeg"],
+			"position": "PhD student",
+			"dates" : "2023-now"
 		},
 		{
 			"firstname": "Claudia",
 			"lastname": "Ehrgig",
 			"link": "https://www.researchgate.net/profile/Claudia-Ehrig",
-			"pic_links": ["imgs/people/claudia.jpeg"]
+			"pic_links": ["imgs/people/claudia.jpeg"],
+			"position": "PhD student",
+			"dates" : "2022-now"
+		},
+		{
+			"firstname": "Hadjar Aroua",
+			"lastname": "Ferrar",
+			"link": "#",
+			"pic_links": ["imgs/people/femme.png"],
+			"position": "Master student",
+			"dates" : "2023"
+		},
+		{
+			"firstname": "Nada",
+			"lastname": "Gaafar",
+			"link": "#",
+			"pic_links": ["imgs/people/femme.png"],
+			"position": "Master student",
+			"dates" : "2023"
 		},
 		{
 			"firstname": "Mouad",
 			"lastname": "Hamri",
 			"link": "https://fr.linkedin.com/in/mouad-hamri-3635aa19",
-			"pic_links": ["imgs/people/mouad.png"]
+			"pic_links": ["imgs/people/mouad.png"],
+			"position": "PhD student",
+			"dates" : "2021-now"
 		},
 		{
 			"firstname": "Vasile",
 			"lastname": "Giurgi",
 			"link": "https://fr.linkedin.com/in/vasile-giurgi",
-			"pic_links": ["imgs/people/vasile.jpg"]
+			"pic_links": ["imgs/people/vasile.jpg"],
+			"position": "PhD student",
+			"dates" : "2022-now"
+		},
+		{
+			"firstname": "Anass",
+			"lastname": "El Ayadi",
+			"link": "#",
+			"pic_links": ["imgs/people/homme.png"],
+			"position": "Master student",
+			"dates" : "2023"
 		},
 		{
 			"firstname": "Ali El Hadi",
 			"lastname": "Ismail-Fawaz",
 			"link": "https://hadifawaz1999.github.io",
-			"pic_links": ["imgs/people/hadi.jpg"]
+			"pic_links": ["imgs/people/hadi.jpg"],
+			"position": "PhD student",
+			"dates" : "2022-now"
+		},
+		{
+			"firstname": "Elnur",
+			"lastname": "Maharramov",
+			"link": "#",
+			"pic_links": ["imgs/people/homme.png"],
+			"position": "Master student",
+			"dates" : "2023"
+		},
+		{
+			"firstname": "Mathéo",
+			"lastname": "Marcout",
+			"link": "#",
+			"pic_links": ["imgs/people/homme.png"],
+			"position": "Master student",
+			"dates" : "2023"
 		},
 		{
 			"firstname": "Mihreteab",
 			"lastname": "Negash",
 			"link": "https://et.linkedin.com/in/mihreteab-negash-09ba7537",
-			"pic_links": ["imgs/people/mihreteab.jpg"]
+			"pic_links": ["imgs/people/mihreteab.jpg"],
+			"position": "PhD student",
+			"dates" : "2020-now"
 		},
 		{
 			"firstname": "Gautier",
 			"lastname": "Pialla",
 			"link": "https://fr.linkedin.com/in/gpialla",
-			"pic_links": ["imgs/people/gautier.jpg"]
+			"pic_links": ["imgs/people/gautier.jpg"],
+			"position": "PhD student",
+			"dates" : "2020-now"
 		},
 		{
 			"firstname": "Joachim",
 			"lastname": "Rimpot",
 			"link": "https://fr.linkedin.com/in/joachim-rimpôt-84ab4b112",
-			"pic_links": ["imgs/people/joachim.png"]
+			"pic_links": ["imgs/people/joachim.png"],
+			"position": "PhD student",
+			"dates" : "2022-now"
 		},
 		{
 			"firstname": "Olivier",
 			"lastname": "Schirm",
 			"link": "#",
-			"pic_links": ["imgs/people/olivier.jpeg"]
+			"pic_links": ["imgs/people/olivier.jpeg"],
+			"position": "PhD student",
+			"dates" : "2020-now"
 		}
 	],
 	"postdoc":[
@@ -135,97 +203,129 @@
 			"firstname": "Mounir",
 			"lastname": "Bendali-Braham",
 			"link": "https://www.linkedin.com/in/mounir-bendali-braham-593174105",
-			"pic_links": ["imgs/people/Mounir.png"]
+			"pic_links": ["imgs/people/Mounir.png"],
+			"position": "PhD student",
+			"dates" : "2017-2021"
 		},
 		{
 			"firstname": "Amina",
 			"lastname": "Ben Hamida",
 			"link": "https://www.researchgate.net/profile/Amina-Ben-Hamida",
-			"pic_links": ["imgs/people/amina.jpg"]
+			"pic_links": ["imgs/people/amina.jpg"],
+			"position": "Postdoc",
+			"dates" : "2020-2022"
 		},
 		{
 			"firstname": "Bonan",
 			"lastname": "Cuan",
 			"link": "https://fr.linkedin.com/in/bonan-cuan-634a21196/fr",
-			"pic_links": ["imgs/people/bonan.jpg"]
+			"pic_links": ["imgs/people/bonan.jpg"],
+			"position": "Postdoc",
+			"dates" : "2020-2022"
 		},
 		{
 			"firstname": "Milos",
 			"lastname": "Čučulović",
 			"link": "https://www.researchgate.net/profile/Milos-Cuculovic",
-			"pic_links": ["imgs/people/Milos.jpg"]
+			"pic_links": ["imgs/people/Milos.jpg"],
+			"position": "PhD student",
+			"dates" : "2019-2022"
 		},
 		{
 			"firstname": "Aya",
 			"lastname": "Gouiaa",
 			"link": "https://fr.linkedin.com/in/aya-gouiaa-a388531b8",
-			"pic_links": ["imgs/people/aya.jpg"]
+			"pic_links": ["imgs/people/aya.jpg"],
+			"position": "Research Engineer",
+			"dates" : "2022-2023"
 		},
 		{
 			"firstname": "Laman",
 			"lastname": "Hasanli",
 			"link": "https://fr.linkedin.com/in/lhasanli",
-			"pic_links": ["imgs/people/laman.jpeg"]
+			"pic_links": ["imgs/people/laman.jpeg"],
+			"position": "Research Engineer",
+			"dates" : "2023"
 		},
 		{
 			"firstname": "Robin",
 			"lastname": "Heckenauer",
 			"link": "https://www.researchgate.net/profile/Robin-Heckenauer-2",
-			"pic_links": ["imgs/people/robin.jpeg"]
+			"pic_links": ["imgs/people/robin.jpeg"],
+			"position": "PhD student",
+			"dates" : "2019-2023"
 		},
 		{
 			"firstname": "Hassan",
 			"lastname": "Ismail Fawaz",
 			"link": "https://hfawaz.github.io/",
-			"pic_links": ["imgs/people/hassan.png"]
+			"pic_links": ["imgs/people/hassan.png"],
+			"position": "PhD student",
+			"dates" : "2017-2023"
 		},
 		{
 			"firstname": "Elvin",
 			"lastname": "Ismayilzada",
 			"link": "https://az.linkedin.com/in/elvin-ismayilzada-4679251a3",
-			"pic_links": ["imgs/people/elvin.jpeg"]
+			"pic_links": ["imgs/people/elvin.jpeg"],
+			"position": "Research Engineer",
+			"dates" : "2022-2023"
 		},
 		{
 			"firstname": "Baptiste",
 			"lastname": "Lafabregue",
 			"link": "https://scholar.google.fr/citations?user=Vf6h4YsAAAAJ",
-			"pic_links": ["imgs/people/baptiste.png"]
+			"pic_links": ["imgs/people/baptiste.png"],
+			"position": "PhD student",
+			"dates" : "2018-2021"
 		},
 		{
 			"firstname": "Bastien",
 			"lastname": "Latard",
 			"link": "https://scholar.google.fr/citations?user=VkN3Z24AAAAJ",
-			"pic_links": ["imgs/people/bastien.jpg"]
+			"pic_links": ["imgs/people/bastien.jpg"],
+			"position": "PhD student",
+			"dates" : "2016-2019"
 		},
 		{
 			"firstname": "Alicia",
 			"lastname": "Roux",
 			"link": "https://fr.linkedin.com/in/alicia-roux-797b6715a",
-			"pic_links": ["imgs/people/alicia.jpg"]
+			"pic_links": ["imgs/people/alicia.jpg"],
+			"position": "PhD student",
+			"dates" : "2020-2023"
 		},
 		{
 			"firstname": "Oumaima",
 			"lastname": "Sliti",
 			"link": "#",
-			"pic_links": ["imgs/people/oumaima.jpg"]
+			"pic_links": ["imgs/people/oumaima.jpg"],
+			"position": "Postdoc",
+			"dates" : "2021-2023"
 		},
 		{
 			"firstname": "Tsegamlak",
 			"lastname": "Terefe",
 			"link": "https://www.researchgate.net/profile/Tsegamlak-Terefe",
-			"pic_links": ["imgs/people/terefe.png"]
+			"pic_links": ["imgs/people/terefe.png"],
+			"position": "PhD student",
+			"dates" : "2019-2022"
 		},
 		{
 			"firstname": "Abdul",
 			"lastname": "Wahid",
 			"link": "https://sites.google.com/view/abdulcse/home",
-			"pic_links": ["imgs/people/abdul.jpg"]
+			"pic_links": ["imgs/people/abdul.jpg"],
+			"position": "Postdoc",
+			"dates" : "2022"
 		},
 		{
 			"firstname": "Romain",
 			"lastname": "Wenger",
 			"link": "https://romainwenger.fr",
-			"pic_links": ["imgs/people/rw.jpeg"]
+			"pic_links": ["imgs/people/rw.jpeg"],
+			"position": "PhD student",
+			"dates" : "2019-2023"
 		}
 	]
 }
