@@ -101,7 +101,7 @@
 			"firstname": "Hadjar Aroua",
 			"lastname": "Ferrar",
 			"link": "https://www.linkedin.com/in/hadjer-aroua-ferrar/",
-			"pic_links": ["imgs/people/femme.png"],
+			"pic_links": ["imgs/people/hadjar.jpeg"],
 			"position": "Master student",
 			"dates" : "2023"
 		},
@@ -133,7 +133,7 @@
 			"firstname": "Anass",
 			"lastname": "El Ayadi",
 			"link": "#",
-			"pic_links": ["imgs/people/homme.png"],
+			"pic_links": ["imgs/people/anass.jpg"],
 			"position": "Master student",
 			"dates" : "2023"
 		},
