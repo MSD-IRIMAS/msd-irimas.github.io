@@ -2,11 +2,11 @@
 	"news":[
 		{
 			"date": "2024-05",
-			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Augmenting-TSC-Elastic-Averaging\">open source python code</a> for generating synthetic time series data weighted elastic averaging."
+			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Augmenting-TSC-Elastic-Averaging\">open source python code</a> for generating synthetic time series data with weighted elastic averaging."
 		},
 		{
 			"date": "2024-05",
-			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Simple-KAN-4-Time-Series\">open source python code</a> for using <a href=\"https://arxiv.org/abs/2404.19756\">Kolmogorov-Arnold Networks</a> in Time Series Classification."
+			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Simple-KAN-4-Time-Series\">open source python code</a> for using <a href=\"https://arxiv.org/abs/2404.19756\">Kolmogorov-Arnold Networks</a> for Time Series Classification."
 		},
 		{
 			"date": "2024-05",
