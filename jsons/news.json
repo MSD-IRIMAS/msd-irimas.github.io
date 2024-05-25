@@ -1,6 +1,22 @@
 {
 	"news":[
 		{
+			"date": "2024-05",
+			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Augmenting-TSC-Elastic-Averaging\">open source python code</a> for generating synthetic time series data with weighted elastic averaging."
+		},
+		{
+			"date": "2024-05",
+			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Simple-KAN-4-Time-Series\">open source python code</a> for using <a href=\"https://arxiv.org/abs/2404.19756\">Kolmogorov-Arnold Networks</a> for Time Series Classification."
+		},
+		{
+			"date": "2024-05",
+			"content": "A new paper on arxiv presenting a <a href=\"https://arxiv.org/abs/2405.07680\">a unified evaluation framework for human motion generative models</a>."
+		},
+		{
+			"date": "2024-05",
+			"content": "Ali Ismail-Fawaz in Taipei Taiwan to present our <a href=\"https://doi.org/10.1007/978-981-97-2650-9_10\">Foundation Models paper for Time Series Classification</a> in the <a href=\"https://monashts.github.io/International-Workshop-on-Temporal-Analytics/\">IWTA</a> <a href=\"https://pakdd2024.org/\">@PAKDD2024</a>."
+		},
+		{
 			"date": "2024.04",
 			"content": "One conference paper accepted at <a href=\"https://brain.korea.ac.kr/icprai2024/\" target=\"_blank\">ICPRAI 2024</a> on human motion generation."
 		},
