@@ -1,0 +1,111 @@
+<head>
+
+    <!-- body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+    } -->
+    <style>
+        .container {
+            width: 80%;
+            max-width: 800px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .algorithm-section {
+            margin-bottom: 30px;
+        }
+        .gif-placeholder {
+            width: 400px;
+            height: 300px;
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            margin: 10px auto;
+            border: 1px solid #ccc;
+        }
+    </style>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<div class="container">
+    <h1 class="title is-4">Background Knowledge On DTW and ShapeDTW</h1>
+    <div class="algorithm-section">
+        <h2 class="title is-4">Dynamic Time Warping (DTW)</h2>
+        <p><small>Dynamic Time Warping (DTW) is a similarity measure between time series that aligns sequences by warping the time axis to minimize the distance between them.</small></p>
+        <p><small>Formally, the DTW distance between two sequences \(\mathbf{x_1}\) and \(\mathbf{x_2}\) is calculated as:</small></p>
+        <p><small>\[
+        DTW(\mathbf{x_1}, \mathbf{x_2}) = \min_{\pi \in \mathcal{A}(\mathbf{x_1}, \mathbf{x_2})} \left( \sum_{(t_1, t_2) \in \pi} d(x_{1,t_1}, x_{2,t_2})^q \right)^{\frac{1}{q}}
+        \]</small></p>
+        <p><small>where \(\pi\) is an alignment path and \(\mathcal{A}(\mathbf{x_1}, \mathbf{x_2})\) is the set of all admissible paths.</small></p>
+        <p><small>For more details, visit <a href="https://rtavenar.github.io/blog/dtw.html">An introduction to Dynamic Time Warping</a>.</small></p>
+        <p>Below we present an example using two time series of the <a href="http://timeseriesclassification.com/description.php?Dataset=SonyAIBORobotSurface1">SonyAIBORobotSurface1</a>
+        dataset of the <a href="https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/">UCR Archive</a>.
+        The below figure consists on the DTW cost matrix and the warping path that optimally aligns both series point by point.</p>
+        <img style="width: 60%; height: 60%" src="static/images/SonyAIBORobotSurface1/dtw.gif" alt="DTW Algorithm GIF" class="gif-placeholder">
+    </div>
+
+    <div class="algorithm-section">
+        <h2 class="title is-4">Shape Dynamic Time Warping (ShapeDTW)</h2>
+        <p><small>In <a href="https://www.sciencedirect.com/science/article/pii/S0031320317303710">Zhao and Itti 2018</a>, a variation of DTW was introduced, which aligns transformations of sub-sequences within time series instead of aligning all time series simultaneously. This approach aims to maintain the consideration of neighborhood structure when aligning timestamps across different time series. To define ShapeDTW mathematically, let \(\mathcal{F}\) be a descriptor function, \(\mathbf{x_1}\) and \(\mathbf{x_2}\) be two univariate time series of lengths \(L_1\) and \(L_2\), respectively.</small></p>
+        <p><small>The process begins by extracting sub-sequences of length \(l\) (referred to as reach) from \(\mathbf{x_1}\) and \(\mathbf{x_2}\), denoted by \(\mathbf{x_1'}\) and \(\mathbf{x_2'}\), forming two multivariate time series of shapes \((L_1, l)\) and \((L_2, l)\), respectively. Next, descriptors are extracted from these sub-sequences using \(\mathcal{F}\), resulting in \(\mathbf{D_1} = \mathcal{F}(\mathbf{x_1'})\) and \(\mathbf{D_2} = \mathcal{F}(\mathbf{x_2'})\) of shapes \((L_1, d)\) and \((L_2, d)\), respectively, where \(d\) represents the target dimension.</small></p>
+        <p><small>The DTW alignment path is then computed on the transformed version of the series \(\mathbf{D_1}\) and \(\mathbf{D_2}\), followed by the optimal path being transferred onto the original series space to calculate the measure between the original time stamps instead of the sub-sequences. In this manner, the DTW algorithm will calculate the distance between time stamps following their neighborhood alignments. The ShapeDTW measure can be formulated as the following optimization problem:</small></p>
+        <p><small>\[
+        ShapeDTW(\mathbf{x_1}, \mathbf{x_2}) = \left( \sum_{(t_1, t_2) \in \pi^*} (x_{1,t_1} - x_{2,t_2})^q \right)^{\frac{1}{q}}
+        \]</small></p>
+        <p><small>where \(\pi^*\) is the optimal path obtained by the DTW alignment path between transformed series as follows:</small></p>
+        <p><small>\[
+        \pi^* = \arg \min_{\pi \in \mathcal{A}(\mathbf{D_1}, \mathbf{D_2})} \left( \sum_{(i, j) \in \pi} ||\mathbf{D_1}_i - \mathbf{D_2}_j||_q^q \right)^{\frac{1}{q}}
+        \]</small></p>
+        <p>Below we present an example using two time series of the <a href="http://timeseriesclassification.com/description.php?Dataset=SonyAIBORobotSurface1">SonyAIBORobotSurface1</a>
+            dataset of the <a href="https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/">UCR Archive</a>.
+            The below figure consists on the ShapeDTW cost matrix and the warping path that optimally aligns both series segment by segment.</p>
+        <img style="width: 60%; height: 60%" src="static/images/SonyAIBORobotSurface1/shape_dtw.gif" alt="DTW Algorithm GIF" class="gif-placeholder">
+    </div>
+
+    <div class="algorithm-section">
+        <h2 class="title is-4">Why ShapeDTW Can Be Better</h2>
+        <p><small>ShapeDTW can outperform DTW in scenarios where the shape of the sequences is crucial for accurate similarity measurement. By focusing on shape features, ShapeDTW is more resilient to noise and amplitude variations, leading to more reliable results in many practical applications.
+            This can be seen in the first figure at the top of the webpage where ShapeDBA avoids generating out of distribution points because of the shape alignment.
+        </small></p>
+    </div>
+
+
+        <h1 class="title is-4">Results on Time Series Clustering</h1>
+        We evaluate the usage of ShapeDBA in terms of clustering with k-means.
+        Given that k-means needs an averaging technique and a similarity measure, we define the following comparates (k-means(average methode, similarity measure)):
+        <ul>
+            <li class="main-item">k-means:
+                <ul>
+                    <li class="sub-item">Arithmetic Mean, Euclidean Distance</li>
+                    <li class="sub-item">DBA, DTW</li>
+                    <li class="sub-item">SoftDBA, SoftDTW</li>
+                </ul>
+            </li>
+            <li class="main-item">Ours: k-means(ShapeDBA, ShapeDTW)</li>
+        </ul>
+        We also include <a href="https://dl.acm.org/doi/abs/10.1145/2723372.2737793">k-shape</a>, the state-of-the-art method for Time Series Clustering.
+    
+        <h4>Adjusted Rand Index (ARI) Metric</h4>
+        We train each clustering algorithm over 123 datasets of the <a href="https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/">UCR Archive</a>
+        and calculate the ARI metric over each clustered dataset and present below the Multiple Comparison Matrix by <a href="https://arxiv.org/abs/2305.11921">Ismail-Fawaz et al. 2023</a>. 
+        The below figure showcases that ShapeDBA achieves state-of-the-art performance with no conclusion found on significant difference in performance with SoftDBA.
+        However ShapeDBA leverages over SoftDBA by being faster to compute as it does not have a gradient optimization step.
+        <img style="width: 100%; height: 100%" src="static/images/mcm-ari.png" alt="MCM" class="gif-placeholder">
+</div>

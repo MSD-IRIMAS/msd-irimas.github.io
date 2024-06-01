@@ -1,0 +1,59 @@
+{
+	"title": "ShapeDBA: Generating Effective Time Series Prototypes Using ShapeDTW Barycenter Averaging",
+	"authors": [
+		{
+			"name": "Ali Ismail-Fawaz",
+			"link": "https://hadifawaz1999.github.io",
+			"institution_id": "1"
+		},
+		{
+			"name": "Hassan Ismail Fawaz",
+			"link": "https://hfawaz.github.io/",
+			"institution_id": "1,2"
+		},
+		{
+			"name": "François Petitjean",
+			"link": "http://www.francois-petitjean.com/",
+			"institution_id": "3"
+		},
+		{
+			"name": "Maxime Devanne",
+			"link": "https://maxime-devanne.com/",
+			"institution_id": "1"
+		},
+		{
+			"name": "Jonathan Weber",
+			"link": "https://www.jonathan-weber.eu/",
+			"institution_id": "1"
+		},
+		{
+			"name": "Stefano Berretti",
+			"link": "http://www.micc.unifi.it/berretti/",
+			"institution_id": "4"
+		},
+		{
+			"name": "Geoffrey I. Webb",
+			"link": "https://i.giwebb.com/",
+			"institution_id": "3"
+		},
+		{
+			"name": "Germain Forestier",
+			"link": "https://germain-forestier.info/",
+			"institution_id": "1,3"
+		}
+	],
+	"institutions": ["IRIMAS, Université de Haute-Alsace, Mulhouse, France",
+					 "Ericsson Research, Paris, France",
+					 "DSAI, Monash University, Melbourne, Australia",
+					 "MICC, University of Florence, Florence, Italy"],
+	"pdf_link": "https://arxiv.org/pdf/2309.16353",
+	"doi_link": "https://doi.org/10.1007/978-3-031-49896-1_9",
+	"slides_link": "https://maxime-devanne.com/presentations/Slides_ShapeDBA_AALTD2023.pdf",
+	"code_link": "https://github.com/MSD-IRIMAS/ShapeDBA",
+	"webpage_code": "#",
+	"abstract": "<p>Time series data can be found in almost every domain, ranging from the medical field to manufacturing and wireless communication. Generating realistic and useful exemplars and prototypes is a fundamental data analysis task. In this paper, we investigate a novel approach to generating realistic and useful exemplars and prototypes for time series data. Our approach uses a new form of time series average, the ShapeDTW Barycentric Average. We therefore turn our attention to accurately generating time series prototypes with a novel approach. The existing time series prototyping approaches rely on the Dynamic Time Warping (DTW) similarity measure such as DTW Barycentering Average (DBA) and SoftDBA. These last approaches suffer from a common problem of generating out-of-distribution artifacts in their prototypes. This is mostly caused by the DTW variant used and its incapability of detecting neighborhood similarities, instead it detects absolute similarities. Our proposed method, ShapeDBA, uses the ShapeDTW variant of DTW, that overcomes this issue. We chose time series clustering, a popular form of time series analysis to evaluate the outcome of ShapeDBA compared to the other prototyping approaches. Coupled with the k-means clustering algorithm, and evaluated on a total of 123 datasets from the UCR archive, our proposed averaging approach is able to achieve new state-of-the-art results in terms of Adjusted Rand Index.</p>",
+	"image_overview": "./static/images/averages_comparison.png",
+	"caption_overview": "Comparing four averaging algorithms: Arithmetic Mean, <a href=\"https://www.sciencedirect.com/science/article/pii/S003132031000453X\">DBA</a>, <a href=\"http://proceedings.mlr.press/v70/cuturi17a/cuturi17a.pdf\">SoftDBA</a> and the proposed ShapeDBA.",
+	"external_htmls": ["results.html"],
+	"acknowledgment": "This work was supported by the ANR DELEGATION project (grant ANR-21-CE23-0014) of the French Agence Nationale de la Recherche. The authors would like to acknowledge the High Performance Computing Center of the University of Strasbourg for supporting this work by providing scientific support and access to computing resources. Part of the computing resources were funded by the Equipex Equip@Meso project (Programme Investissements d'Avenir) and the CPER Alsacalcul/Big Data. The authors would also like to thank the creators and providers of the UCR Archive."
+}
