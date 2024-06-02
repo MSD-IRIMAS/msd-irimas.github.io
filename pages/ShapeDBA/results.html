@@ -105,7 +105,41 @@
         <h4>Adjusted Rand Index (ARI) Metric</h4>
         We train each clustering algorithm over 123 datasets of the <a href="https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/">UCR Archive</a>
         and calculate the ARI metric over each clustered dataset and present below the Multiple Comparison Matrix by <a href="https://arxiv.org/abs/2305.11921">Ismail-Fawaz et al. 2023</a>. 
-        The below figure showcases that ShapeDBA achieves state-of-the-art performance with no conclusion found on significant difference in performance with SoftDBA.
-        However ShapeDBA leverages over SoftDBA by being faster to compute as it does not have a gradient optimization step.
         <img style="width: 100%; height: 100%" src="static/images/mcm-ari.png" alt="MCM" class="gif-placeholder">
+        The above figure showcases that ShapeDBA achieves state-of-the-art performance with no conclusion found on significant difference in performance with SoftDBA.
+        However ShapeDBA leverages over SoftDBA by being faster to compute as it does not have a gradient optimization step.
+        This fast computation of ShapeDBA is due to one other contribution of our paper,
+        where we propose an approach to avoid recomputing the Euclidean Distance when sliding 
+        the window in ShapeDTW, as presented in the figure below at the left side.
+        This recomputation is solved by our co-author <a href="http://www.francois-petitjean.com">
+        François Petitjean</a> in his sliding matrix algorithm at the right side of
+        the figure below.
+        The matrix slides over the distance matrix computed over the padded series 
+        and accumulates the current seen part of the distance matrix into the resulted
+        ShapeDTW matrix.
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <figure style="width: 45%; text-align: center; margin: auto;">
+                <img id="img-overview" src="static/images/re-computed_EDs.png"
+                     style="width: 100%; height: auto; display: block; margin: auto;"
+                     class="interpolation-image"
+                     alt=""/>
+                <figcaption>Computation of the ShapeDTW measure between two time series. It
+                    can be observed that the common area between the two sliding window is re-
+                    computed.</figcaption>
+            </figure>
+            <figure style="width: 45%; text-align: center; margin: auto;">
+                <img id="img-overview" src="static/images/sliding_window.png"
+                     style="width: 100%; height: auto; display: block; margin: auto;"
+                     class="interpolation-image"
+                     alt=""/>
+                <figcaption>A more efficient implementation of the ShapeDTW measure when the
+                    descriptor is set to be the identity. Instead of applying the DTW on the mul-
+                    tivariate transformation of the time series, a window slides on the ED matrix
+                    between the two time series. The captured frames are accumulated in another
+                    zero-initialized matrix on which the DTW algorithm is then applied.</figcaption>
+            </figure>
+        </div>
+        
+        
+        
 </div>
