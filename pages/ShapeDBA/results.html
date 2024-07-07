@@ -51,7 +51,7 @@
         <p><small>Dynamic Time Warping (DTW) is a similarity measure between time series that aligns sequences by warping the time axis to minimize the distance between them.</small></p>
         <p><small>Formally, the DTW distance between two sequences \(\mathbf{x_1}\) and \(\mathbf{x_2}\) is calculated as:</small></p>
         <p><small>\[
-        DTW(\mathbf{x_1}, \mathbf{x_2}) = \min_{\pi \in \mathcal{A}(\mathbf{x_1}, \mathbf{x_2})} \left( \sum_{(t_1, t_2) \in \pi} d(x_{1,t_1}, x_{2,t_2})^q \right)^{\frac{1}{q}}
+        DTW(\mathbf{x_1}, \mathbf{x_2}) = \min_{\pi \in \mathcal{A}(\mathbf{x_1}, \mathbf{x_2})} \left( \sum_{(t_1, t_2) \in \pi} d(x_{1,t_1}, x_{2,t_2})^2 \right)^{\frac{1}{2}}
         \]</small></p>
         <p><small>where \(\pi\) is an alignment path and \(\mathcal{A}(\mathbf{x_1}, \mathbf{x_2})\) is the set of all admissible paths.</small></p>
         <p><small>For more details, visit <a href="https://rtavenar.github.io/blog/dtw.html">An introduction to Dynamic Time Warping</a>.</small></p>
@@ -67,11 +67,11 @@
         <p><small>The process begins by extracting sub-sequences of length \(l\) (referred to as reach) from \(\mathbf{x_1}\) and \(\mathbf{x_2}\), denoted by \(\mathbf{x_1'}\) and \(\mathbf{x_2'}\), forming two multivariate time series of shapes \((L_1, l)\) and \((L_2, l)\), respectively. Next, descriptors are extracted from these sub-sequences using \(\mathcal{F}\), resulting in \(\mathbf{D_1} = \mathcal{F}(\mathbf{x_1'})\) and \(\mathbf{D_2} = \mathcal{F}(\mathbf{x_2'})\) of shapes \((L_1, d)\) and \((L_2, d)\), respectively, where \(d\) represents the target dimension.</small></p>
         <p><small>The DTW alignment path is then computed on the transformed version of the series \(\mathbf{D_1}\) and \(\mathbf{D_2}\), followed by the optimal path being transferred onto the original series space to calculate the measure between the original time stamps instead of the sub-sequences. In this manner, the DTW algorithm will calculate the distance between time stamps following their neighborhood alignments. The ShapeDTW measure can be formulated as the following optimization problem:</small></p>
         <p><small>\[
-        ShapeDTW(\mathbf{x_1}, \mathbf{x_2}) = \left( \sum_{(t_1, t_2) \in \pi^*} (x_{1,t_1} - x_{2,t_2})^q \right)^{\frac{1}{q}}
+        ShapeDTW(\mathbf{x_1}, \mathbf{x_2}) = \left( \sum_{(t_1, t_2) \in \pi^*} (x_{1,t_1} - x_{2,t_2})^2 \right)^{\frac{1}{2}}
         \]</small></p>
         <p><small>where \(\pi^*\) is the optimal path obtained by the DTW alignment path between transformed series as follows:</small></p>
         <p><small>\[
-        \pi^* = \arg \min_{\pi \in \mathcal{A}(\mathbf{D_1}, \mathbf{D_2})} \left( \sum_{(i, j) \in \pi} ||\mathbf{D_1}_i - \mathbf{D_2}_j||_q^q \right)^{\frac{1}{q}}
+        \pi^* = \arg \min_{\pi \in \mathcal{A}(\mathbf{D_1}, \mathbf{D_2})} \left( \sum_{(i, j) \in \pi} ||\mathbf{D_1}_i - \mathbf{D_2}_j||_2^2 \right)^{\frac{1}{2}}
         \]</small></p>
         <p>Below we present an example using two time series of the <a href="http://timeseriesclassification.com/description.php?Dataset=SonyAIBORobotSurface1">SonyAIBORobotSurface1</a>
             dataset of the <a href="https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/">UCR Archive</a>.
