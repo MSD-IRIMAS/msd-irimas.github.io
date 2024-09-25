@@ -1,20 +1,52 @@
 {
 	"news":[
 		{
-			"date": "2024-05",
-			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Augmenting-TSC-Elastic-Averaging\">open source python code</a> for generating synthetic time series data with weighted elastic averaging."
+			"date": "2024-09",
+			"content": "Ali El Hadi was at <a href=\"https://ecmlpkdd.org/2024/\" target=\"_blank\">ECML-PKDD 2024</a> to present our work on <a href=\"https://github.com/MSD-IRIMAS/Weighted-ShapeDBA-4-Rehab\" target=\"_blank\">weighted averages of rehabilitation motion sequences</a>."
+		},
+		{
+			"date": "2024-09",
+			"content": "Ali El Hadi was co-presenting a tutorial on <a href=\"https://aeon-tutorials.github.io/ECML-2024/\" target=\"_blank\">ML for Time Series</a> at <a href=\"https://ecmlpkdd.org/2024/\" target=\"_blank\">ECML-PKDD 2024</a>."
+		},
+		{
+			"date": "2024-09",
+			"content": "<a href=\"https://cyrilmeyer.eu\" target=\"_blank\">Cyril Meyer </a> just joined our research group as an Associate Professor, welcome!"
+		},
+		{
+			"date": "2024-08",
+			"content": "Germain and Ali El Hadi were at <a href=\"https://kdd2024.kdd.org\" target=\"_blank\">KDD 2024</a> for co-presenting a <a href=\"https://aeon-tutorials.github.io/KDD-2024/\" target=\"_blank\">Time Series tutorial</a>."
+		},
+		{
+			"date": "2024-07",
+			"content": "Our work on <a href=\"https://github.com/MSD-IRIMAS/Weighted-ShapeDBA-4-Rehab\" target=\"_blank\">weighted averages of rehabilitation motion sequences</a> has been accetped at <a href=\"https://ecml-aaltd.github.io/aaltd2024/\" target=\"_blank\">AALTD</a> Workshop in <a href=\"https://ecmlpkdd.org/2024/\" target=\"_blank\">ECML-PKDD 2024</a>."
+		},
+		{
+			"date": "2024-06",
+			"content": "Congratulation to <a href=\"https://www.linkedin.com/in/olivier-schirm-69674115b/\" target=\"_blank\">Olivier Schirm</a> who defended his PhD!"
 		},
 		{
 			"date": "2024-05",
-			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Simple-KAN-4-Time-Series\">open source python code</a> for using <a href=\"https://arxiv.org/abs/2404.19756\">Kolmogorov-Arnold Networks</a> for Time Series Classification."
+			"content": "Maxime was at <a href=\"https://fg2024.ieee-biometrics.org/\" target=\"_blank\">FG 2024</a> for chairing the <a href=\"https://sites.google.com/view/lfa-fg2024/\" target=\"_blank\">2nd LFA-FG Workshop</a>."
 		},
 		{
 			"date": "2024-05",
-			"content": "A new paper on arxiv presenting a <a href=\"https://arxiv.org/abs/2405.07680\">a unified evaluation framework for human motion generative models</a>."
+			"content": "We publicly released a <a href=\"https://github.com/MSD-IRIMAS/filter1D_visualization\" target=\"_blank\">simple tool</a> for visualizing 1D convolution kernels learned by deep models."
 		},
 		{
 			"date": "2024-05",
-			"content": "Ali Ismail-Fawaz in Taipei Taiwan to present our <a href=\"https://doi.org/10.1007/978-981-97-2650-9_10\">Foundation Models paper for Time Series Classification</a> in the <a href=\"https://monashts.github.io/International-Workshop-on-Temporal-Analytics/\">IWTA</a> <a href=\"https://pakdd2024.org/\">@PAKDD2024</a>."
+			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Augmenting-TSC-Elastic-Averaging\" target=\"_blank\">open source python code</a> for generating synthetic time series data with weighted elastic averaging."
+		},
+		{
+			"date": "2024-05",
+			"content": "A new <a href=\"https://github.com/MSD-IRIMAS/Simple-KAN-4-Time-Series\" target=\"_blank\">open source python code</a> for using <a href=\"https://arxiv.org/abs/2404.19756\" target=\"_blank\">Kolmogorov-Arnold Networks</a> for Time Series Classification."
+		},
+		{
+			"date": "2024-05",
+			"content": "A new paper is available on arxiv presenting a <a href=\"https://arxiv.org/abs/2405.07680\" target=\"_blank\">a unified evaluation framework for human motion generative models</a>."
+		},
+		{
+			"date": "2024-05",
+			"content": "Ali Ismail-Fawaz was in Taipei Taiwan to present our work on <a href=\"https://doi.org/10.1007/978-981-97-2650-9_10\" target=\"_blank\">Domain Foundation Models for TSC</a> in the <a href=\"https://monashts.github.io/International-Workshop-on-Temporal-Analytics/\" target=\"_blank\">IWTA</a> <a href=\"https://pakdd2024.org/\">@PAKDD2024</a target=\"_blank\">."
 		},
 		{
 			"date": "2024.04",
