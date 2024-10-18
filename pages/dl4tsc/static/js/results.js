@@ -155,7 +155,7 @@ function chooseDataset() {
     my_iframe_title.textContent = selectedValue + " Dataset";
     my_iframe.src = "static/images/params/per_data/"+selectedValue+"/num-params-plot.html";
     my_dataset_button.style.display = 'inline-block';
-    my_dataset_button.textContent = 'Button here';
+    my_dataset_button.textContent = 'Visualize Dataset';
     my_dataset_iframe_title.textContent = "Random Samples From The " + selectedValue + " Dataset" + " - " + data.numberOfClasses[selectedValue] + " Classes";
     my_dataset_iframe.src = "static/bokeh/dataset_plots/"+selectedValue+"/class_0.html";
 
