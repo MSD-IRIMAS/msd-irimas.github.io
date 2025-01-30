@@ -1,6 +1,42 @@
 {
 	"news":[
 		{
+			"date": "2025.01",
+			"content": "<a href=\"http://www.micc.unifi.it/berretti/\" target=\"_blank\">Stefano Berretti</a>, Professor from University of Florence, is visiting our group for one week"
+		},
+		{
+			"date": "2025.01",
+			"content": "Congratulations to <a href=\"https://hadifawaz1999.github.io\" target=\"_blank\">Ali El Hadi Ismail Fawaz</a> who defended his PhD!"
+		},
+		{
+			"date": "2025.01",
+			"content": "<a href=\"https://www.linkedin.com/in/emanuele-chini-53419a238/?originalSubdomain=it\" target=\"_blank\">Emanuele Chini</a> (PhD student) is visiting our group for 6 months"
+		},
+		{
+			"date": "2025.01",
+			"content": "One journal paper accepted in <a href=\"https://link.springer.com/article/10.1007/s41060-024-00708-5?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250107&utm_content=10.1007/s41060-024-00708-5\" target=\"_blank\">JDSA</a> on multivariate time series classification"
+		},
+		{
+			"date": "2024.12",
+			"content": "Congratulations to <a href=\"https://et.linkedin.com/in/mihreteab-negash-09ba7537\" target=\"_blank\">Mihreteab Negash Geletu</a> who defended his PhD!"
+		},
+		{
+			"date": "2024.11",
+			"content": "In Strasbourg for the kick-off meeting of <a href=\"https://turfu.icube.unistra.fr\" target=\"_blank\">TURFU-NET</a> project"
+		},
+		{
+			"date": "2024.10",
+			"content": "One conference paper accepted in <a href=\"https://www3.cs.stonybrook.edu/~ieeebigdata2024/\" target=\"_blank\">IEEE BigData 2024</a> on hybrid model for time series classification"
+		},
+		{
+			"date": "2024.09",
+			"content": "<a href=\"https://www.linkedin.com/in/claudia-ehrig-6b4b97203/\" target=\"_blank\">Claudia Ehrig</a>, PhD student at Fraunhofer IIS, is visiting our group for one week"
+		},
+		{
+			"date": "2024.09",
+			"content": "<a href=\"https://www.linkedin.com/in/anass-el-ayady/\" target=\"_blank\">Anass El Ayadi</a> starts his PhD in the frame of the COPCOT project, in collaboration with the <a href=\"https://crem.univ-lorraine.fr/lunite/equipes-de-recherche/pixel\" target=\"_blank\">CREM</a> laboratory"
+		},
+		{
 			"date": "2024-09",
 			"content": "Ali El Hadi was at <a href=\"https://ecmlpkdd.org/2024/\" target=\"_blank\">ECML-PKDD 2024</a> to present our work on <a href=\"https://github.com/MSD-IRIMAS/Weighted-ShapeDBA-4-Rehab\" target=\"_blank\">weighted averages of rehabilitation motion sequences</a>."
 		},
