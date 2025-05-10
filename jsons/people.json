@@ -145,6 +145,14 @@
 			"dates" : "2025-now"
 		},
 		{
+			"firstname": "Maël",
+			"lastname": "Boeuf",
+			"link": "https://www.linkedin.com/in/maelboeuf/",
+			"pic_links": ["imgs/people/mael.jpeg"],
+			"position": "PhD student",
+			"dates" : "2024-now"
+		},
+		{
 			"firstname": "Amina",
 			"lastname": "Ben Hamida",
 			"link": "https://tn.linkedin.com/in/aminabenhamida",
