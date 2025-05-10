@@ -1,6 +1,26 @@
 {
 	"news":[
 		{
+			"date": "2025.04",
+			"content": "One conference paper accepted in <a href=\"https://2025.ijcnn.org/\">IJCNN 2025</a> on diversity-driven time series classification deep ensembles"
+		},
+		{
+			"date": "2025.03",
+			"content": "Kick-off meeting of the ANR <a href=\"https://anr.fr/Projet-ANR-24-CE23-1130\">M2-BDA</a> project !"
+		},
+		{
+			"date": "2025.03",
+			"content": "<a href=\"https://maxime-devanne.com/\">Maxime Devanne</a> is in Brest for working with the CHRU, partner of the <a href=\"https://maxime-devanne.com/delegation/\">DELEGATION</a> project"
+		},
+		{
+			"date": "2025.03",
+			"content": "One journal paper accepted in <a href=\"https://www.sciencedirect.com/journal/computer-vision-and-image-understanding\">CVIU</a> on <a href=\"https://doi.org/10.1016/j.cviu.2025.104337\">evaluating generative models for human motion</a>"
+		},
+		{
+			"date": "2025.02",
+			"content": "Welcome to Victor and Basak who just started their Master Internship in our team!"
+		},
+		{
 			"date": "2025.01",
 			"content": "<a href=\"http://www.micc.unifi.it/berretti/\" target=\"_blank\">Stefano Berretti</a>, Professor from University of Florence, is visiting our group for one week"
 		},

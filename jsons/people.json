@@ -125,16 +125,8 @@
 			"lastname": "Ismail-Fawaz",
 			"link": "https://hadifawaz1999.github.io",
 			"pic_links": ["imgs/people/hadi.jpg"],
-			"position": "PhD student",
-			"dates" : "2022-now"
-		},
-		{
-			"firstname": "Mihreteab",
-			"lastname": "Negash",
-			"link": "https://et.linkedin.com/in/mihreteab-negash-09ba7537",
-			"pic_links": ["imgs/people/mihreteab.jpg"],
-			"position": "PhD student",
-			"dates" : "2020-now"
+			"position": "Postdoc",
+			"dates" : "2025-now"
 		},
 		{
 			"firstname": "Joachim",
@@ -150,6 +142,14 @@
 	"engineer":[
 	],
 	"alumni":[
+		{
+			"firstname": "Mihreteab",
+			"lastname": "Negash",
+			"link": "https://et.linkedin.com/in/mihreteab-negash-09ba7537",
+			"pic_links": ["imgs/people/mihreteab.jpg"],
+			"position": "PhD student",
+			"dates" : "2020-now"
+		},
 		{
 			"firstname": "Mounir",
 			"lastname": "Bendali-Braham",
