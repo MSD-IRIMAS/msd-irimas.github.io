@@ -1,6 +1,56 @@
 {
 	"current":[
 		{
+			"name": "TURFU-NET",
+			"link": "https://turfu.icube.unistra.fr/",
+			"date": "2024-",
+			"topic": "Transcending the Usual Rationale for the Future of Ubiquitous NETworks",
+			"partners": ["iCube (Strabourg)", "LIP6"],
+			"partners_links": ["https://icube.unistra.fr/", "https://www.lip6.fr/recherche/team.php?acronyme=NPA"],
+			"role": "Member",
+			"fundings": "ANR (TSIA instrument)"
+		},
+		{
+			"name": "M2-BDA",
+			"link": "https://anr.fr/Projet-ANR-24-CE23-1130",
+			"date": "2024-",
+			"topic": "Multi-Modal Big Data Analytics for remote sensing",
+			"partners": ["LIVE", "ITES", "LIPADE", "DATA TERRA"],
+			"partners_links": ["https://live.unistra.fr/", "https://ites.unistra.fr/", "https://lipade.mi.parisdescartes.fr/?lang=fr", "https://www.data-terra.org/en/"],
+			"role": "Member",
+			"fundings": "ANR"
+		},
+		{
+			"name": "COPCOT",
+			"link": "https://anr.fr/Projet-ANR-22-CE38-0003",
+			"date": "2023-",
+			"topic": "COntent Personalization for skill-building on COmputational Thinking",
+			"partners": ["CREM", "France-IOI"],
+			"partners_links": ["https://crem.univ-lorraine.fr/lunite/equipes-de-recherche/pixel", "https://www.france-ioi.org/"],
+			"role": "Member",
+			"fundings": "ANR (JCJC instrument)"
+		},
+		{
+			"name": "CHOICED",
+			"link": "#",
+			"date": "2023-",
+			"topic": "CHoice Of referral between City medicine or Emergency Department",
+			"partners": ["SAMU 57", "SAMU 67", "iCube (Strabourg)"],
+			"partners_links": ["https://www.chr-metz-thionville.fr/index.html", "https://www.chru-strasbourg.fr/service/le-service-daide-medicale-urgente-samu/", "https://icube.unistra.fr/"],
+			"role": "Member",
+			"fundings": "ReSP-Ir GIRCI Est"
+		},
+		{
+			"name": "IMPULSE",
+			"link": "#",
+			"date": "2023-",
+			"topic": "Multimodal approach to detect and assess the risk of malignancy of IPMN, a frequent pancreatic precancerous lesion",
+			"partners": ["iCube (Strabourg)", "Inflammation Research Center (CRI)"],
+			"partners_links": ["https://icube.unistra.fr/", "https://cri1149.fr/"],
+			"role": "Member",
+			"fundings": "ARC, Pancréas 2022"
+		},
+		{
 			"name": "DELEGATION",
 			"link": "https://maxime-devanne.com/delegation/",
 			"date": "2022-",
@@ -9,16 +59,6 @@
 			"partners_links": ["https://www.micc.unifi.it/people/stefano-berretti/", "https://www.chu-brest.fr/fr", "https://www.arfp.asso.fr"],
 			"role": "Coordinator",
 			"fundings": "ANR (JCJC instrument)"
-		},
-		{
-			"name": "REVEIL",
-			"link": "",
-			"date": "2022-",
-			"topic": "Virtual reality application for rehabilitation",
-			"partners": ["LISEC", "CRM"],
-			"partners_links": ["http://www.lisec-recherche.eu/membre/escriva-boulley-geraldine", "https://www.arfp.asso.fr"],
-			"role": "Coordinator",
-			"fundings": "Fondation Matmut Paul Bennetot"
 		},
 		{
 			"name": "EviDeep",
@@ -31,17 +71,27 @@
 			"fundings": "ANR (JCJC instrument)"
 		},
 		{
-		 	"name": "Mi*EDGE",
-		 	"link": "https://www.era-learn.eu/network-information/networks/eracosysmed/3rd-joint-transnational-call-for-european-research-projects-on-systems-medicine/modelling-cell-plasticity-at-the-invasive-edge-to-diminish-glioblastoma-early-relapse-risk",
-		 	"date": "2020-",
-		 	"topic": "Modelling cell plasticity at the invasive Edge to Diminish Glioblastoma Early relapse risk",
-		 	"partners": ["ICube","MHH (Germany)","TUD (Germany)","Humanitas (Italy)","LCBS (Luxembourg)"],
-		 	"partners_links": ["https://sdc.icube.unistra.fr/en/index.php?title=Home", "https://www.mhh.de/institute-zentren-forschungseinrichtungen/institut-fuer-pathologie", "https://tu-dresden.de", "https://5x1000.humanitas.it/news/locati-massimo/", "https://wwwfr.uni.lu/lcsb"],
-		 	"role": "Partner",
-		 	"fundings": "ERACoSysmed/ANR"
+			"name": "Highland ",
+			"link": "https://anr.fr/Projet-ANR-20-CE01-0006",
+			"date": "2021-",
+			"topic": "Deep learning for anomaly detection in non-destructive control",
+			"partners": ["Institut de Physique du Globe de Strasbourg (UMR 7516)"],
+			"partners_links": ["https://fondation.unistra.fr/projet/institut-de-physique-du-globe-de-strasbourg-ipgs-umr-7516/"],
+			"role": "Member",
+			"fundings": "ANR (JCJC instrument)"
 		}
 	],
 	"past":[
+		{
+			"name": "REVEIL",
+			"link": "",
+			"date": "2022-",
+			"topic": "Virtual reality application for rehabilitation",
+			"partners": ["LISEC", "CRM"],
+			"partners_links": ["http://www.lisec-recherche.eu/membre/escriva-boulley-geraldine", "https://www.arfp.asso.fr"],
+			"role": "Coordinator",
+			"fundings": "Fondation Matmut Paul Bennetot"
+		},
 		{
 			"name": "Enygma",
 			"link": "",
@@ -52,6 +102,16 @@
 			"role": "Partner",
 			"fundings": "Région Grand-Est"
 		},
+		{
+			"name": "Mi*EDGE",
+			"link": "https://www.era-learn.eu/network-information/networks/eracosysmed/3rd-joint-transnational-call-for-european-research-projects-on-systems-medicine/modelling-cell-plasticity-at-the-invasive-edge-to-diminish-glioblastoma-early-relapse-risk",
+			"date": "2020-",
+			"topic": "Modelling cell plasticity at the invasive Edge to Diminish Glioblastoma Early relapse risk",
+			"partners": ["iCube (Strabourg)","MHH (Germany)","TUD (Germany)","Humanitas (Italy)","LCBS (Luxembourg)"],
+			"partners_links": ["https://sdc.icube.unistra.fr/en/index.php?title=Home", "https://www.mhh.de/institute-zentren-forschungseinrichtungen/institut-fuer-pathologie", "https://tu-dresden.de", "https://5x1000.humanitas.it/news/locati-massimo/", "https://wwwfr.uni.lu/lcsb"],
+			"role": "Partner",
+			"fundings": "ERACoSysmed/ANR"
+	    },
 		{
 			"name": "APIAC",
 			"link": "",
@@ -67,7 +127,7 @@
 			"link": "https://wemmertc.github.io/aicolo/",
 			"date": "2019-2023",
 			"topic": "Artificial intelligence to determine prognosis and mutation status in colorectal cancer using histological slides",
-			"partners": ["ICube","CGFL"],
+			"partners": ["iCube (Strabourg)","CGFL"],
 			"partners_links": ["https://sdc.icube.unistra.fr/en/index.php?title=Home", "https://www.cgfl.fr"],
 			"role": "Partner",
 			"fundings": "INSERM, plan cancer"
