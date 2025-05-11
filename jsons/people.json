@@ -164,7 +164,7 @@
 			"firstname": "Basak",
 			"lastname": "Basbunar",
 			"link": "https://www.linkedin.com/in/basakbasbunar/",
-			"pic_links": ["imgs/people/femme.png"],
+			"pic_links": ["imgs/people/basak.png"],
 			"position": "Intern",
 			"dates" : "2025-now"
 		},
@@ -196,7 +196,7 @@
 			"firstname": "Aziz",
 			"lastname": "Korbi",
 			"link": "https://www.linkedin.com/in/aziz-korbi/",
-			"pic_links": ["imgs/people/homme.png"],
+			"pic_links": ["imgs/people/aziz.jpeg"],
 			"position": "Intern",
 			"dates" : "2025-now"
 		},
