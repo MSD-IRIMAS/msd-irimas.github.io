@@ -1,0 +1,44 @@
+{
+	"title": "Deep Learning for Skeleton Based Human Motion Rehabilitation Assessment: A Benchmark",
+	"authors": [
+		{
+			"name": "Ali Ismail-Fawaz",
+			"link": "https://hadifawaz1999.github.io",
+			"institution_id": "1,*"
+		},
+		{
+			"name": "Maxime Devanne",
+			"link": "https://maxime-devanne.com/",
+			"institution_id": "1,*"
+		},
+		{
+			"name": "Stefano Berretti",
+			"link": "http://www.micc.unifi.it/berretti/",
+			"institution_id": "2"
+		},
+		{
+			"name": "Jonathan Weber",
+			"link": "https://www.jonathan-weber.eu/",
+			"institution_id": "1"
+		},
+		{
+			"name": "Germain Forestier",
+			"link": "https://germain-forestier.info/",
+			"institution_id": "1,3"
+		}
+	],
+	"institutions": ["IRIMAS, Université de Haute-Alsace, Mulhouse, France",
+			         "MICC, University of Florence, Florence, Italy",
+					 "DSAI, Monash University, Melbourne, Australia",
+					 "These authors contributed equally to this work"],
+	"pdf_link": "#",
+	"doi_link": "#",
+	"data_link": "#rehab-pile",
+	"code_link": "#",
+	"webpage_code": "#",
+	"abstract": "<p> Automated assessment of human motion plays a vital role in rehabilitation, enabling objective evaluation of patient performance and progress. Unlike general human activity recognition, rehabilitation motion assessment focuses on analyzing the quality of movement within the same action class, requiring the detection of subtle deviations from ideal motion. Recent advances in deep learning and video-based skeleton extraction have opened new possibilities for accessible, scalable motion assessment using affordable devices such as smartphones or webcams. However, the field lacks standardized benchmarks, consistent evaluation protocols, and reproducible methodologies, limiting progress and comparability across studies. In this work, we address these gaps by (i) aggregating existing rehabilitation datasets into a unified archive, (ii) proposing a general benchmarking framework for evaluating deep learning methods in this domain, and (iii) conducting extensive benchmarking of multiple architectures across classification and regression tasks. All datasets and implementations are released to the community to support transparency and reproducibility. This paper aims to establish a solid foundation for future research in automated rehabilitation assessment and foster the development of reliable, accessible, and personalized rehabilitation solutions.</p>",
+	"image_overview": "./static/bokeh/trade-off/trade-off.html",
+	"caption_overview": "Comparing nine deep learning models on 60 datasets of classification and extrinsic regression in terms of average ranking, number of FLOPS and number of trainable parameters.",
+	"external_htmls": ["results.html"],
+	"acknowledgment": "This work was supported by the ANR DELEGATION project (grant ANR-21-CE23-0014) of the French Agence Nationale de la Recherche. The authors would like to acknowledge the High Performance Computing Center of the University of Strasbourg for supporting this work by providing scientific support and access to computing resources. Part of the computing resources were funded by the Equipex Equip@Meso project (Programme Investissements d'Avenir) and the CPER Alsacalcul/Big Data. The authors would also like to thank the creators and providers of the original datasets in our archive."
+}
