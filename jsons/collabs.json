@@ -31,6 +31,14 @@
 			"institution": "Université de Strasbourg",
 			"country": "France",
 			"institution_links": "https://unistra.fr/"
+		},
+		{
+			"name": "Anthony Bagnall",
+			"link": "https://timeseriesclassification.com/",
+			"date": "",
+			"institution": "University of Southampton",
+			"country": "United Kingdom",
+			"institution_links": "https://www.southampton.ac.uk/"
 		}
 	],
 	"companies":[

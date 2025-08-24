@@ -97,14 +97,6 @@
 			"dates" : "2022-now"
 		},
 		{
-			"firstname": "Mouad",
-			"lastname": "Hamri",
-			"link": "https://fr.linkedin.com/in/mouad-hamri-3635aa19",
-			"pic_links": ["imgs/people/mouad.png"],
-			"position": "PhD student",
-			"dates" : "2021-now"
-		},
-		{
 			"firstname": "Vasile",
 			"lastname": "Giurgi",
 			"link": "https://fr.linkedin.com/in/vasile-giurgi",
@@ -161,14 +153,6 @@
 			"dates" : "2020-now"
 		},
 		{
-			"firstname": "Basak",
-			"lastname": "Basbunar",
-			"link": "https://www.linkedin.com/in/basakbasbunar/",
-			"pic_links": ["imgs/people/basak.png"],
-			"position": "Intern",
-			"dates" : "2025-now"
-		},
-		{
 			"firstname": "Victor",
 			"lastname": "Thiebaut",
 			"link": "https://www.linkedin.com/in/victor-thiebaut-0a0551261/",
@@ -214,6 +198,14 @@
 	"engineer":[
 	],
 	"alumni":[
+		{
+			"firstname": "Mouad",
+			"lastname": "Hamri",
+			"link": "https://fr.linkedin.com/in/mouad-hamri-3635aa19",
+			"pic_links": ["imgs/people/mouad.png"],
+			"position": "PhD student",
+			"dates" : "2021-now"
+		},
 		{
 			"firstname": "Mihreteab",
 			"lastname": "Negash",
