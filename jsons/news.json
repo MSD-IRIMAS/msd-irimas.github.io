@@ -1,6 +1,46 @@
 {
 	"news":[
 		{
+			"date": "2025-08",
+			"content": "A new blog about <a href=\"https://medium.com/@aeon.toolkit/forecasting-horizons-da426b7a6c24\">forecasting horizons</a> by <a href=\"https://hadifawaz1999.github.io/\">Ali Ismail-Fawaz</a> in collaboration with <a href=\"https://timeseriesclassification.com/\">Tony Bagnal</a> for this year's <a href=\"https://www.aeon-toolkit.org/en/stable/\">aeon</a> GSoC."
+		},
+		{
+			"date": "2025-08",
+			"content": "Two papers in AALTD ECML-PKDD are now available, one on <a href=\"https://ecml-aaltd.github.io/aaltd2025/articles/Ismail-Fawaz-57%5CCameraReady%5CData_Aug_Review_Generation_AALTD2025.pdf\">time series augmentation</a> and one on <a href=\"https://ecml-aaltd.github.io/aaltd2025/articles/Meyer-89%5CCameraReady%5CTSPoolParty_AALTD_ECML_PKDD-VF1.pdf\">time series classification</a>."
+		},
+		{
+			"date": "2025-07",
+			"content": "<a href=\"https://github.com/MSD-IRIMAS/docker-tutorial\">A new tutorial on github</a> for using <a href=\"https://www.docker.com/\">Docker</a> with <a href=\"https://www.tensorflow.org/\">tensorflow</a> for GPU acceleration."
+		},
+		{
+			"date": "2025-07",
+			"content": "New paper on arxiv proposing <a href=\"https://msd-irimas.github.io/pages/DeepRehabPile/\">a new benchmark archive for skeleton-based human rehabilitation assessment</a>"
+		},
+		{
+			"date": "2025-06",
+			"content": "Two full length papers on time series analysis accepted at the <a href=\"https://ecml-aaltd.github.io/aaltd2025/program.html\">AALTD workshop</a> at <a href=\"https://ecmlpkdd.org/2025/\">ECML-PKDD 2025</a>"
+		},
+		{
+			"date": "2025-06",
+			"content": "Congratulations to <a href=\"https://fr.linkedin.com/in/mouad-hamri-3635aa19\">Mouad Hamri</a> who defended his PhD!"
+		},
+		{
+			"date": "2025-06",
+			"content": "One journal paper accepted in <a href=\"https://www.sciencedirect.com/journal/international-journal-of-approximate-reasoning\">IJAR</a> on fusion for vehicle perception"
+		},
+		{
+			"date": "2025-05",
+			"content": "One paper accepted at <a href=\"https://2025.cbms-conference.org/\">IEEE CBMS 2025</a> on the analysis of emergency calls!"
+		},
+		{
+			"date": "2025-05",
+			"content": "<a href=\"https://maxime-devanne.com/\">Maxime Devanne</a> and <a href=\"https://www.jonathan-weber.eu/\">Jonathan Weber</a> at <a href=\"https://fg2025.ieee-biometrics.org/\">FG 2025</a> for their organization of the <a href=\"https://sites.google.com/view/lfa-fg2025\">3rd LFA-FG Workshop</a>"
+		},
+		{
+			"date": "2025-05",
+			"content": "<a href=\"https://maxime-devanne.com/\">Maxime Devanne</a> in Caen, at <a href=\"https://gt-gast.irisa.fr/actions/gestion-et-analyse-des-donnees-sportives-gas-25/\">GAS' 25</a>, for giving an invited talk on time series analysis and rehabiliation assessment"
+		},
+		{
 			"date": "2025.04",
 			"content": "One conference paper accepted in <a href=\"https://2025.ijcnn.org/\">IJCNN 2025</a> on diversity-driven time series classification deep ensembles"
 		},
