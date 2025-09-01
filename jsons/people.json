@@ -50,6 +50,13 @@
 			"pic_links": ["imgs/people/ff.jpg"]
 		},
 		{
+			"firstname": "Ali",
+			"lastname": "Ismail-Fawaz",
+			"link": "https://hadifawaz1999.github.io/",
+			"position" : "Assoc. Prof.",
+			"pic_links": ["imgs/people/Hadi.jpg"]
+		},
+		{
 			"firstname": "Cyril",
 			"lastname": "Meyer",
 			"link": "https://cyrilmeyer.eu",
@@ -111,14 +118,6 @@
 			"pic_links": ["imgs/people/anass.jpg"],
 			"position": "PhD student",
 			"dates" : "2024-now"
-		},
-		{
-			"firstname": "Ali El Hadi",
-			"lastname": "Ismail-Fawaz",
-			"link": "https://hadifawaz1999.github.io",
-			"pic_links": ["imgs/people/hadi.jpg"],
-			"position": "Postdoc",
-			"dates" : "2025-now"
 		},
 		{
 			"firstname": "Joachim",
