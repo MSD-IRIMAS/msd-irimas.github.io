@@ -1,6 +1,10 @@
 {
 	"news":[
 		{
+			"date": "2025-01",
+			"content": "<a href=\"https://hadifawaz1999.github.io/\" target=\"_blank\">Ali Ismail-Fawaz</a> just joined our research group as an Associate Professor, welcome!"
+		},
+		{
 			"date": "2025-08",
 			"content": "A new blog about <a href=\"https://medium.com/@aeon.toolkit/forecasting-horizons-da426b7a6c24\">forecasting horizons</a> by <a href=\"https://hadifawaz1999.github.io/\">Ali Ismail-Fawaz</a> in collaboration with <a href=\"https://timeseriesclassification.com/\">Tony Bagnal</a> for this year's <a href=\"https://www.aeon-toolkit.org/en/stable/\">aeon</a> GSoC."
 		},
