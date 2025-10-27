@@ -120,14 +120,6 @@
 			"dates" : "2024-now"
 		},
 		{
-			"firstname": "Joachim",
-			"lastname": "Rimpot",
-			"link": "https://fr.linkedin.com/in/joachim-rimpôt-84ab4b112",
-			"pic_links": ["imgs/people/joachim.png"],
-			"position": "PhD student",
-			"dates" : "2022-now"
-		},
-		{
 			"firstname": "Damien",
 			"lastname": "Porcher",
 			"link": "",
@@ -144,6 +136,14 @@
 			"dates" : "2024-now"
 		},
 		{
+			"firstname": "Victor",
+			"lastname": "Thiebaut",
+			"link": "https://www.linkedin.com/in/victor-thiebaut-0a0551261/",
+			"pic_links": ["imgs/people/victor.jpeg"],
+			"position": "PhD student",
+			"dates" : "2025-now"
+		},
+		{
 			"firstname": "Amina",
 			"lastname": "Ben Hamida",
 			"link": "https://tn.linkedin.com/in/aminabenhamida",
@@ -152,19 +152,11 @@
 			"dates" : "2020-now"
 		},
 		{
-			"firstname": "Victor",
-			"lastname": "Thiebaut",
-			"link": "https://www.linkedin.com/in/victor-thiebaut-0a0551261/",
-			"pic_links": ["imgs/people/victor.jpeg"],
-			"position": "Intern",
-			"dates" : "2025-now"
-		},
-		{
 			"firstname": "Théo",
 			"lastname": "Nicod",
 			"link": "https://www.linkedin.com/in/th%C3%A9o-nicod-b21b36273/",
 			"pic_links": ["imgs/people/theo.jpeg"],
-			"position": "Intern",
+			"position": "Engineer",
 			"dates" : "2025-now"
 		},
 		{
@@ -172,23 +164,7 @@
 			"lastname": "Mouaheb",
 			"link": "https://www.linkedin.com/in/elias-mouaheb-398075254/",
 			"pic_links": ["imgs/people/elias.jpeg"],
-			"position": "Intern",
-			"dates" : "2025-now"
-		},
-		{
-			"firstname": "Aziz",
-			"lastname": "Korbi",
-			"link": "https://www.linkedin.com/in/aziz-korbi/",
-			"pic_links": ["imgs/people/aziz.jpeg"],
-			"position": "Intern",
-			"dates" : "2025-now"
-		},
-		{
-			"firstname": "Manar",
-			"lastname": "Halhoussine",
-			"link": "",
-			"pic_links": ["imgs/people/manar.jpeg"],
-			"position": "Intern",
+			"position": "Engineer",
 			"dates" : "2025-now"
 		}
 	],
@@ -197,6 +173,14 @@
 	"engineer":[
 	],
 	"alumni":[
+		{
+			"firstname": "Joachim",
+			"lastname": "Rimpot",
+			"link": "https://fr.linkedin.com/in/joachim-rimpôt-84ab4b112",
+			"pic_links": ["imgs/people/joachim.png"],
+			"position": "PhD student",
+			"dates" : "2022-now"
+		},
 		{
 			"firstname": "Mouad",
 			"lastname": "Hamri",

@@ -1,7 +1,35 @@
 {
 	"news":[
 		{
-			"date": "2025-01",
+			"date": "2025-10",
+			"content": "Master's internship position on <a href=\"https://maxime-devanne.com/jobs/internship_position_delegation_generation_rehab_2026.pdf\">deep generative models for rehabilitation exercises</a>"
+		},
+		{
+			"date": "2025-10",
+			"content": "<a href=\"https://hadifawaz1999.github.io/\">Ali Ismail-Fawaz</a> in Paris to present <a href=\"https://www.aeon-toolkit.org/en/stable/\">aeon-toolkit</a> at the <a href=\"https://p16.inria.fr/fr/\">P16</a> annual meetup"
+		},
+		{
+			"date": "2025-10",
+			"content": "<a href=\"https://germain-forestier.info/\">Germain Forestier</a> at <a href=\"https://dsaa.ieee.org/2025/\">DSAA 2025 in Birmingham</a> to give a tutorial with the aeon core developers on <a href=\"https://aeon-tutorials.github.io/DSAA-2025/\">Deep Learning for Time Series Classification and Imperfect Data</a>."
+		},
+		{
+			"date": "2025-10",
+			"content": "<a href=\"https://www.linkedin.com/in/victor-thiebaut-0a0551261/\">Victor Thiebaut</a> joined our team as a PhD student to work on the <a href=\"https://anr.fr/Projet-ANR-24-CE23-1130\">M2-BDA</a> project, welcome !"
+		},
+		{
+			"date": "2025-09",
+			"content": "<a href=\"https://maxime-devanne.com/\">Maxime Devanne</a> in Angers, at <a href=\"https://www.congres-sfmes-sfts.com/fr/\">SFTS</a>, for giving an invited talk on challenges of AI in medicine and sport"
+		},
+		{
+			"date": "2025-09",
+			"content": "<a href=\"https://maxime-devanne.com/\">Maxime Devanne</a> in Basel, at <a href=\"https://new.esmac.org/esmac-2025-basel/\">ESMAC 2025</a>, for presenting two collaborative work on clinical gait analysis"
+		},
+		{
+			"date": "2025-09",
+			"content": "<a href=\"https://fr.linkedin.com/in/joachim-rimp%C3%B4t-84ab4b112\">Joachim Rimpot</a> defended his PhD, congrats !"
+		},
+		{
+			"date": "2025-09",
 			"content": "<a href=\"https://hadifawaz1999.github.io/\" target=\"_blank\">Ali Ismail-Fawaz</a> just joined our research group as an Associate Professor, welcome!"
 		},
 		{
