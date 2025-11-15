@@ -1,6 +1,10 @@
 {
 	"news":[
 		{
+			"date": "2025-11",
+			"content": "<a href=\"https://doi.org/10.1109/IJCNN64981.2025.11228372\">Paper in IJCNN 2025 proceedings</a> on ensemble diversity for time series classification !"
+		},
+		{
 			"date": "2025-10",
 			"content": "Master's internship position on <a href=\"https://maxime-devanne.com/jobs/internship_position_delegation_generation_rehab_2026.pdf\">deep generative models for rehabilitation exercises</a>"
 		},
@@ -498,5 +502,6 @@
 		}
 	]
 }
+
 
 
