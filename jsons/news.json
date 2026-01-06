@@ -10,6 +10,10 @@
 		},
 		{
 			"date": "2025-11",
+			"content": "<a href=\"https://jonathan-weber.eu/\">Jonathan Weber</a> at <a href=\"https://www.european-cyber-week.eu\">ECW 2025 !</a> to give a talk about <a href=\"https://www.youtube.com/watch?v=yJqWEMN3xmc\">Artificial intelligence for influence operations</a>."
+		},
+		{
+			"date": "2025-11",
 			"content": "<a href=\"https://doi.org/10.1109/IJCNN64981.2025.11228372\">Paper in IJCNN 2025 proceedings</a> on ensemble diversity for time series classification !"
 		},
 		{
@@ -510,6 +514,7 @@
 		}
 	]
 }
+
 
 
 
