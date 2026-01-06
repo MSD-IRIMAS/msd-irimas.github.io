@@ -1,6 +1,26 @@
 {
 	"current":[
 		{
+			"name": "P16",
+			"link": "https://p16.inria.fr/fr/software/",
+			"date": "2024-",
+			"topic": "Communs numérique pour une IA souvraine",
+			"partners": ["INRIA","Probabl","MAPIE","Corese","Skrub","Scikit-learn","tslearn","aeon"],
+			"partners_links": ["https://www.inria.fr/fr","https://probabl.ai/about", "https://mapie.readthedocs.io/en/stable/","https://project.inria.fr/corese/","https://skrub-data.org/stable/","https://scikit-learn.org/stable/","https://tslearn.readthedocs.io/en/stable/","https://www.aeon-toolkit.org/en/stable/"],
+			"role": "Partner",
+			"fundings": "INRIA - France 2030"
+		},
+		{
+			"name": "NCU-ELAN",
+			"link": "https://anr.fr/ProjetIA-17-NCUN-0014",
+			"date": "2018-",
+			"topic": "Eveil à la Liberté et à l'Autonomie dans un monde Numérique",
+			"partners": "",
+			"partners_links": "",
+			"role": "Member",
+			"fundings": "ANR - France 2030"
+		},
+		{
 			"name": "TURFU-NET",
 			"link": "https://turfu.icube.unistra.fr/",
 			"date": "2024-",

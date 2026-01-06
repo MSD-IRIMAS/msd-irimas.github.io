@@ -1,6 +1,14 @@
 {
 	"news":[
 		{
+			"date": "2026-01",
+			"content": "<a href=\"\">Elias Mouaheb</a> started his PhD in our team on evaluating LLMs in the frame of the <a href=\"https://www.elan.uha.fr/ncu-elan/\">NCU-ELAN</a> project, welcome !"
+		},
+		{
+			"date": "2025-12",
+			"content": "One paper accepted at the <a href=\"https://icaart.scitevents.org/\">ICAART 2026</a> on pruning CNNs for Time Series Classification!"
+		},
+		{
 			"date": "2025-11",
 			"content": "<a href=\"https://doi.org/10.1109/IJCNN64981.2025.11228372\">Paper in IJCNN 2025 proceedings</a> on ensemble diversity for time series classification !"
 		},
