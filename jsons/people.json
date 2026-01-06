@@ -104,6 +104,22 @@
 			"dates" : "2022-now"
 		},
 		{
+			"firstname": "Maxime",
+			"lastname": "Gangneux",
+			"link": "https://www.linkedin.com/in/maxime-gangneux-8a334b328/",
+			"pic_links": ["imgs/people/homme.png"],
+			"position": "Intern",
+			"dates": "2025-now"
+		},
+		{
+			"firstname": "Julien",
+			"lastname": "Muller",
+			"link": "https://www.linkedin.com/in/julien-muller-a03897346/",
+			"pic_links": ["imgs/people/julienM.jpeg"],
+			"position": "Intern",
+			"dates": "2025-now"
+		},
+		{
 			"firstname": "Vasile",
 			"lastname": "Giurgi",
 			"link": "https://fr.linkedin.com/in/vasile-giurgi",
@@ -152,20 +168,12 @@
 			"dates" : "2020-now"
 		},
 		{
-			"firstname": "Théo",
-			"lastname": "Nicod",
-			"link": "https://www.linkedin.com/in/th%C3%A9o-nicod-b21b36273/",
-			"pic_links": ["imgs/people/theo.jpeg"],
-			"position": "Engineer",
-			"dates" : "2025-now"
-		},
-		{
 			"firstname": "Elias",
 			"lastname": "Mouaheb",
 			"link": "https://www.linkedin.com/in/elias-mouaheb-398075254/",
 			"pic_links": ["imgs/people/elias.jpeg"],
-			"position": "Engineer",
-			"dates" : "2025-now"
+			"position": "PhD student",
+			"dates" : "2026-now"
 		}
 	],
 	"postdoc":[
@@ -173,6 +181,14 @@
 	"engineer":[
 	],
 	"alumni":[
+		{
+			"firstname": "Théo",
+			"lastname": "Nicod",
+			"link": "https://www.linkedin.com/in/th%C3%A9o-nicod-b21b36273/",
+			"pic_links": ["imgs/people/theo.jpeg"],
+			"position": "Engineer",
+			"dates" : "2025-now"
+		},
 		{
 			"firstname": "Joachim",
 			"lastname": "Rimpot",
