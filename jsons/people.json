@@ -97,7 +97,7 @@
 		},
 		{
 			"firstname": "Claudia",
-			"lastname": "Ehrgig",
+			"lastname": "Ehrig",
 			"link": "https://www.researchgate.net/profile/Claudia-Ehrig",
 			"pic_links": ["imgs/people/claudia.jpeg"],
 			"position": "PhD student",
@@ -351,3 +351,4 @@
 		}
 	]
 }
+
