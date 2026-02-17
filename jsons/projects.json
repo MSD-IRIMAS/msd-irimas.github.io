@@ -1,6 +1,16 @@
 {
 	"current":[
 		{
+			"name": "TERMINUS",
+			"link": "#",
+			"date": "2026-",
+			"topic": "Domain Foundation Models for Time Series Classification",
+			"partners": [],
+			"partners_links": [],
+			"role": "Coordinator",
+			"fundings": "ANR Projet de Recherche Mono Equipe"
+		},
+		{
 			"name": "P16",
 			"link": "https://p16.inria.fr/fr/software/",
 			"date": "2024-",

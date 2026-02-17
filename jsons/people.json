@@ -88,6 +88,14 @@
 			"dates" : "2023-now"
 		},
 		{
+			"firstname": "Pauline",
+			"lastname": "Blavy",
+			"link": "https://www.linkedin.com/in/pauline-blavy/",
+			"pic_links": ["imgs/people/Pauline.jpg"],
+			"position": "Intern",
+			"dates" : "2026-now"
+		},
+		{
 			"firstname": "Bruno",
 			"lastname": "Come",
 			"link": "https://www.linkedin.com/in/bruno-côme-5b907487",
