@@ -1,6 +1,14 @@
 {
 	"news":[
 		{
+			"date": "2026-02",
+			"content": "Welcome to <a href=\"https://www.linkedin.com/in/pauline-blavy/\">Pauline Blavy</a> new intern in our team working on the TERMINUS project on domain foundation models for time series classification !"
+		},
+		{
+			"date": "2026-01",
+			"content": "<a href=\"https://maxime-devanne.com/\">Maxime Devanne</a> Defended his Habilitation à Diriger des Recherches (HDR), congrats !"
+		},
+		{
 			"date": "2026-01",
 			"content": "<a href=\"\">Elias Mouaheb</a> started his PhD in our team on evaluating LLMs in the frame of the <a href=\"https://www.elan.uha.fr/ncu-elan/\">NCU-ELAN</a> project, welcome !"
 		},

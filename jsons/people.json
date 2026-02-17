@@ -39,7 +39,7 @@
 			"firstname": "Maxime",
 			"lastname": "Devanne",
 			"link": "https://maxime-devanne.com",
-			"position" : "Assoc. Prof.",
+			"position" : "Assoc. Prof. (HDR)",
 			"pic_links": ["imgs/people/maximeDevanne.jpg"]
 		},
 		{
@@ -86,6 +86,14 @@
 			"pic_links": ["imgs/people/javidan.png"],
 			"position": "PhD student",
 			"dates" : "2023-now"
+		},
+		{
+			"firstname": "Pauline",
+			"lastname": "Blavy",
+			"link": "https://www.linkedin.com/in/pauline-blavy/",
+			"pic_links": ["imgs/people/Pauline.jpg"],
+			"position": "Intern",
+			"dates" : "2026-now"
 		},
 		{
 			"firstname": "Bruno",
