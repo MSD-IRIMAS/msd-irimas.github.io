@@ -1,8 +1,36 @@
 {
 	"news":[
 		{
+			"date": "2026-04",
+			"content": "A new benchmark archive for Multivariate Time Series Classification called <a href=\"https://arxiv.org/pdf/2603.20352\">MULTIVERSE</a> !"
+		},
+		{
+			"date": "2026-04",
+			"content": "<a href=\"https://www.linkedin.com/in/yoan-l/\">Yoan Lespessailles</a> joined our team for an internship developing a data annotation tool. Welcome !"
+		},
+		{
+			"date": "2026-04",
+			"content": "One conference paper accepted at <a href=\"https://fg2026.ieee-biometrics.org/\">FG 2026</a> on benchmarking deep learning models for rehabilitation assessment"
+		},
+		{
+			"date": "2026-03",
+			"content": "One paper accepted in <a href=\"https://2026.ieeeigarss.org/\">IGARSS 2026</a> where we present a new Satellite Image Time Series dataset for land cover classification!"
+		},
+		{
+			"date": "2026-03",
+			"content": "Welcome to Nicolò and Nurlan who just started their Master Internship in our team!"
+		},
+		{
+			"date": "2026-02",
+			"content": "Congratulations to <a href=\"https://www.linkedin.com/in/vasile-giurgi/\">Vasile Giurgi</a> who defended his PhD!"
+		},
+		{
 			"date": "2026-02",
 			"content": "Welcome to <a href=\"https://www.linkedin.com/in/pauline-blavy/\">Pauline Blavy</a> new intern in our team working on the TERMINUS project on domain foundation models for time series classification !"
+		},
+		{
+			"date": "2026-01",
+			"content": "New conference paper on deformable convolutions for TSC accepted at <a href=\"https://www.sigapp.org/sac/sac2026/index.php\">ACM SAC 2026</a>"
 		},
 		{
 			"date": "2026-01",
