@@ -190,6 +190,14 @@
 			"pic_links": ["imgs/people/nurlan.jpg"],
 			"position": "Intern",
 			"dates" : "2026"
+		},
+		{
+			"firstname": "Imen",
+			"lastname": "Benhenda",
+			"link": "#",
+			"pic_links": ["imgs/people/imen.png"],
+			"position": "Intern",
+			"dates" : "2026"
 		}
 	],
 	"postdoc":[
