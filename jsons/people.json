@@ -174,6 +174,22 @@
 			"pic_links": ["imgs/people/yoan.jpeg"],
 			"position": "Intern",
 			"dates" : "2026"
+		},
+		{
+			"firstname": "Nicolò",
+			"lastname": "Gavassa",
+			"link": "#",
+			"pic_links": ["imgs/people/nicolo.jpg"],
+			"position": "Intern",
+			"dates" : "2026"
+		},
+		{
+			"firstname": "Nurlan",
+			"lastname": "Abdullazada",
+			"link": "https://www.linkedin.com/in/nurlan-abdullazada/",
+			"pic_links": ["imgs/people/nurlan.jpg"],
+			"position": "Intern",
+			"dates" : "2026"
 		}
 	],
 	"postdoc":[
