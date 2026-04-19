@@ -1,5 +1,5 @@
 {
-	"title": "Deep Learning for Skeleton Based Human Motion Rehabilitation Assessment: A Benchmark",
+	"title": "A Standardized Benchmark for Skeleton-Based Rehabilitation Assessment Using Deep Learning",
 	"authors": [
 		{
 			"name": "Ali Ismail-Fawaz",
@@ -31,12 +31,13 @@
 			         "MICC, University of Florence, Florence, Italy",
 					 "DSAI, Monash University, Melbourne, Australia",
 					 "These authors contributed equally to this work"],
-	"pdf_link": "https://arxiv.org/pdf/2507.21018",
-	"doi_link": "https://arxiv.org/abs/2507.21018",
+	"pdf_link": "#",
+	"pre_print_link": "https://arxiv.org/pdf/2507.21018",
+	"doi_link": "#",
 	"data_link": "#rehab-pile",
 	"code_link": "https://github.com/MSD-IRIMAS/DeepRehabPile",
 	"webpage_code": "https://github.com/MSD-IRIMAS/msd-irimas.github.io/tree/master/pages/DeepRehabPile",
-	"abstract": "<p> Automated assessment of human motion plays a vital role in rehabilitation, enabling objective evaluation of patient performance and progress. Unlike general human activity recognition, rehabilitation motion assessment focuses on analyzing the quality of movement within the same action class, requiring the detection of subtle deviations from ideal motion. Recent advances in deep learning and video-based skeleton extraction have opened new possibilities for accessible, scalable motion assessment using affordable devices such as smartphones or webcams. However, the field lacks standardized benchmarks, consistent evaluation protocols, and reproducible methodologies, limiting progress and comparability across studies. In this work, we address these gaps by (i) aggregating existing rehabilitation datasets into a unified archive, (ii) proposing a general benchmarking framework for evaluating deep learning methods in this domain, and (iii) conducting extensive benchmarking of multiple architectures across classification and regression tasks. All datasets and implementations are released to the community to support transparency and reproducibility. This paper aims to establish a solid foundation for future research in automated rehabilitation assessment and foster the development of reliable, accessible, and personalized rehabilitation solutions.</p>",
+	"abstract": "<p> Automated assessment of human motion plays a vital role in rehabilitation, enabling objective evaluation of patient performance and progress. Unlike general human activity recognition, rehabilitation motion assessment focuses on analyzing the quality of movement within the same action class, requiring the detection of subtle deviations from ideal motion. Recent advances in deep learning and video-based skeleton extraction have opened new possibilities for accessible, scalable motion assessment using affordable devices such as smartphones or webcams. However, the field lacks standardized benchmarks, consistent evaluation protocols, and reproducible methodologies, limiting progress and comparability across studies. In this work, we address these gaps by first aggregating existing rehabilitation repositories into a unified archive called Rehab-Pile. Second, we propose a general benchmarking framework for robustly and fairly evaluating deep learning methods in this domain. Experimental results show that some approaches offer a good trade-off between performance and efficiency. All datasets and implementations are publicly released to the community to support transparency, reproducibility and evolution: <a href=\"https://msd-irimas.github.io/pages/DeepRehabPile/\">https://msd-irimas.github.io/pages/DeepRehabPile/</a></p>",
 	"image_overview": "./static/bokeh/trade-off/trade-off.html",
 	"caption_overview": "Comparing nine deep learning models on 60 datasets of classification and extrinsic regression in terms of average ranking, number of FLOPS and number of trainable parameters.",
 	"external_htmls": ["results.html"],
