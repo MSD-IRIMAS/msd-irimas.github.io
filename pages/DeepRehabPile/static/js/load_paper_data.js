@@ -102,7 +102,7 @@ $(document).ready(function() {
 			$("#paper-links").append(' <span class=\"link-block\"><a href=\"' + data.doi_link + '\" class=\"external-link button is-normal is-rounded is-dark\"><span class=\"icon\"><i class=\"fas fa-link\"></i></span><span>DOI</span></a></span> ');
 		}
 		if (data.hasOwnProperty('pre_print_link')) {
-			$("#paper-links").append(' <span class=\"link-block\"><a href=\"' + data.pdf_link + '\" class=\"external-link button is-normal is-rounded is-dark\"><span class=\"icon\"><i class=\"fas fa-file-pdf\"></i></span><span>Pre-Print Version</span></a></span> ');
+			$("#paper-links").append(' <span class=\"link-block\"><a href=\"' + data.pre_print_link + '\" class=\"external-link button is-normal is-rounded is-dark\"><span class=\"icon\"><i class=\"fas fa-file-pdf\"></i></span><span>Pre-Print Version</span></a></span> ');
 		}
 		if (data.hasOwnProperty('slides_link')) {
 			$("#paper-links").append(' <span class=\"link-block\"><a href=\"' + data.slides_link + '\" class=\"external-link button is-normal is-rounded is-dark\"><span class=\"icon\"><i class=\"fab fa-slideshare\"></i></span><span>Slides</span></a></span> ');
