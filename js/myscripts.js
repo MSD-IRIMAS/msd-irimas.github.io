@@ -229,8 +229,8 @@ $(document).ready(function(){
 		if (res[i].entryTags.hasOwnProperty('pdf')){
 			link_string = link_string + '<a href="' + res[i].entryTags.pdf + '" target="blank_"><i class="fas fa-file-pdf-o"></i></a> ';
 		}
-		if (res[i].entryTags.hasOwnProperty('URL')){
-			link_string = link_string + '<a href="' + res[i].entryTags.URL + '" target="blank_"><i class="fas fa-link"></i></a> ';
+		if (res[i].entryTags.hasOwnProperty('url')){
+			link_string = link_string + '<a href="' + res[i].entryTags.url + '" target="blank_"><i class="fas fa-link"></i></a> ';
 		}
 
 		link_string += '<a href="javascript: toggleInfos(\'' + res[i].citationKey + '\',\'bibtex\')">[BibTex]</a>';
@@ -267,9 +267,9 @@ $(document).ready(function(){
 				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.journal + ', Vol. ' + res[i].entryTags.volume + num_string + pages_string + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
 				$("#nat_journals").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptIntNatArticle + ']</td><td>' + publi_string + '</td></tr>');
 				if (res[i].entryTags.hasOwnProperty('number')){
-					$("#nat_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  number = {' + res[i].entryTags.number + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.URL + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
+					$("#nat_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  number = {' + res[i].entryTags.number + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
 				}else{
-					$("#nat_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.URL + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
+					$("#nat_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
 				}
 			}else{
 				// article
@@ -294,9 +294,9 @@ $(document).ready(function(){
 				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.journal + vol_string + num_string + pages_string + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
 				$("#int_journals").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptIntArticle + ']</td><td>' + publi_string + '</td></tr>');
 				if (res[i].entryTags.hasOwnProperty('number')){
-					$("#int_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  number = {' + res[i].entryTags.number + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.URL + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
+					$("#int_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  number = {' + res[i].entryTags.number + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
 				}else{
-					$("#int_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.URL + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
+					$("#int_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
 				}	
 			}
 		}else if (res[i].entryType == 'inproceedings'){
@@ -305,19 +305,19 @@ $(document).ready(function(){
 				cptNatConf++;
 				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.booktitle + ', ' + res[i].entryTags.address + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
 				$("#nat_confs").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptNatConf + ']</td><td>' + publi_string + '</td></tr>');
-				$("#nat_confs").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@inproceedings{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  booktitle = {' + res[i].entryTags.booktitle + '},\n  address = {' + res[i].entryTags.address + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.URL + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
+				$("#nat_confs").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@inproceedings{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  booktitle = {' + res[i].entryTags.booktitle + '},\n  address = {' + res[i].entryTags.address + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
 			}else if ((res[i].entryTags.hasOwnProperty('workshop')) && (res[i].entryTags.workshop == 'True')){
 				// international workshop
 				cptIntWork++;
 				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.booktitle + ', ' + res[i].entryTags.address + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
 				$("#int_workshops").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptIntWork + ']</td><td>' + publi_string + '</td></tr>');
-				$("#int_workshops").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@inproceedings{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  booktitle = {' + res[i].entryTags.booktitle + '},\n  address = {' + res[i].entryTags.address + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.URL + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
+				$("#int_workshops").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@inproceedings{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  booktitle = {' + res[i].entryTags.booktitle + '},\n  address = {' + res[i].entryTags.address + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
 			}else{
 				// international conf
 				cptIntConf++;
 				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.booktitle + ', ' + res[i].entryTags.address + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
 				$("#int_confs").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptIntConf + ']</td><td>' + publi_string + '</td></tr>');
-				$("#int_confs").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@inproceedings{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  booktitle = {' + res[i].entryTags.booktitle + '},\n  address = {' + res[i].entryTags.address + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.URL + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
+				$("#int_confs").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@inproceedings{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  booktitle = {' + res[i].entryTags.booktitle + '},\n  address = {' + res[i].entryTags.address + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '}\n}' + '</td></tr>');
 			}
 		}else if (res[i].entryType == 'inbook'){
 			// book chapter
@@ -392,7 +392,7 @@ $(document).ready(function(){
         scrollTop: $(hash).offset().top
       }, 800, function(){
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
+        // Add hash (#) to url when done scrolling (default click behavior)
         window.location.hash = hash;
       });
     } // End if
