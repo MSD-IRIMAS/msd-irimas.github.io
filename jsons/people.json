@@ -198,6 +198,14 @@
 			"pic_links": ["imgs/people/imen.png"],
 			"position": "Intern",
 			"dates" : "2026"
+		},
+		{
+			"firstname": "Chaymae",
+			"lastname": "Dihaji",
+			"link": "https://www.linkedin.com/in/chaymae-dihaji/",
+			"pic_links": ["imgs/people/chaymae.jpeg"],
+			"position": "Intern",
+			"dates" : "2026"
 		}
 	],
 	"postdoc":[
