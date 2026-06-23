@@ -62,35 +62,35 @@ $(document).ready(function(){
 			content_phd = content_phd + '</div>';
 		}
 		$("#students").append(content_phd);
-		//alumnis
-		content_alumnis = '<div class="row">';
-		for (var i=0; i<data.alumni.length; i++){
-			//row_pic = '<div class="col-md-2" align="center"><img src="' + data.alumni[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"><br>';
-			row_pic_front = '<div class="flip-card-front"><img src="' + data.alumni[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"></div>';
-			row_pic_back = '<div class="flip-card-back img-thumbnail"><br><br><p>' + data.alumni[i].position + '</p><p>' + data.alumni[i].dates + '</p></div>'
-			row_pic = '<div class="col-md-2" align="center"><div class="flip-card"><div class="flip-card-inner">' + row_pic_front + row_pic_back + '</div></div>'
-			row_name = '<a href="' + data.alumni[i].link + '" target="_blank">' + data.alumni[i].firstname + '<br>' + data.alumni[i].lastname + '</a></div>';
-			content_alumnis = content_alumnis + row_pic + row_name;
-			if (((i+1)%max_cols)==0){// create a new row
-				content_alumnis = content_alumnis + '</div><div class="row">';
-			}
-		}
-		if ((data.alumni.length%max_cols)==0){
-			content_alumnis = content_alumnis + '</div>';
-		}
-		$("#alumnis").append(content_alumnis);
-		var hidden_alumnis= true;
-		$('#alumnis').hide();
-		$('#see-alumnis').click(function () {
-	        if (hidden_alumnis){
-	        	$('#alumnis').show();
-	        	$('#see-alumnis').html('<i class="fas fa-search-minus"></i>');
-	        	hidden_alumnis = false;
-	        }else{
-	        	$('#alumnis').hide();
-	        	$('#see-alumnis').html('<i class="fas fa-search-plus"></i>');
-	        	hidden_alumnis = true;
-	        }
-	    });
+		// //alumnis
+		// content_alumnis = '<div class="row">';
+		// for (var i=0; i<data.alumni.length; i++){
+		// 	//row_pic = '<div class="col-md-2" align="center"><img src="' + data.alumni[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"><br>';
+		// 	row_pic_front = '<div class="flip-card-front"><img src="' + data.alumni[i].pic_links + '" width="200px" class="img-thumbnail img-responsive img-fluid center-block"></div>';
+		// 	row_pic_back = '<div class="flip-card-back img-thumbnail"><br><br><p>' + data.alumni[i].position + '</p><p>' + data.alumni[i].dates + '</p></div>'
+		// 	row_pic = '<div class="col-md-2" align="center"><div class="flip-card"><div class="flip-card-inner">' + row_pic_front + row_pic_back + '</div></div>'
+		// 	row_name = '<a href="' + data.alumni[i].link + '" target="_blank">' + data.alumni[i].firstname + '<br>' + data.alumni[i].lastname + '</a></div>';
+		// 	content_alumnis = content_alumnis + row_pic + row_name;
+		// 	if (((i+1)%max_cols)==0){// create a new row
+		// 		content_alumnis = content_alumnis + '</div><div class="row">';
+		// 	}
+		// }
+		// if ((data.alumni.length%max_cols)==0){
+		// 	content_alumnis = content_alumnis + '</div>';
+		// }
+		// $("#alumnis").append(content_alumnis);
+		// var hidden_alumnis= true;
+		// $('#alumnis').hide();
+		// $('#see-alumnis').click(function () {
+	    //     if (hidden_alumnis){
+	    //     	$('#alumnis').show();
+	    //     	$('#see-alumnis').html('<i class="fas fa-search-minus"></i>');
+	    //     	hidden_alumnis = false;
+	    //     }else{
+	    //     	$('#alumnis').hide();
+	    //     	$('#see-alumnis').html('<i class="fas fa-search-plus"></i>');
+	    //     	hidden_alumnis = true;
+	    //     }
+	    // });
 	});
 });
