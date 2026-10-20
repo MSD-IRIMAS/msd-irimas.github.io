@@ -1,11 +1,11 @@
 {
 	"permanent":[
 		{
-			"firstname": "Jonathan",
-			"lastname": "Weber",
-			"link": "https://www.jonathan-weber.eu",
-			"position" : "Head / Full Prof.",
-			"pic_links": ["imgs/people/JW.png"]
+			"firstname": "Maxime",
+			"lastname": "Devanne",
+			"link": "https://maxime-devanne.com",
+			"position" : "Head / Assoc. Prof. (HDR)",
+			"pic_links": ["imgs/people/maximeDevanne.jpg"]
 		},
 		{
 			"firstname": "Germain",
@@ -34,13 +34,6 @@
 			"link": "https://fr.linkedin.com/in/jean-marc-perronne-71a6a236",
 			"position" : "Full Prof.",
 			"pic_links": ["imgs/people/JMP.jpg"]
-		},
-		{
-			"firstname": "Maxime",
-			"lastname": "Devanne",
-			"link": "https://maxime-devanne.com",
-			"position" : "Assoc. Prof. (HDR)",
-			"pic_links": ["imgs/people/maximeDevanne.jpg"]
 		},
 		{
 			"firstname": "Frédéric",
